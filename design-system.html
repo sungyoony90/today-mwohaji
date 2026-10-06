@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#faf6ed" />
+    <title>오늘 뭐하지 · 디자인 시스템</title>
+    <link rel="stylesheet" href="design-system.css" />
+  </head>
+  <body style="margin:0">
+    <main class="ds-page">
+      <div class="ds-shell">
+        <header class="ds-topline">
+          <div class="ds-brand"><span class="ds-brand-mark" aria-hidden="true">✦</span>오늘 뭐하지</div>
+          <span class="ds-version">DESIGN FOUNDATIONS · V0.1</span>
+        </header>
+
+        <section class="ds-intro" aria-labelledby="ds-title">
+          <div><p class="ds-eyebrow">Real moments, clearer decisions</p><h1 id="ds-title">누군가의 진짜 장면이<br />오늘의 선택이 되도록.</h1></div>
+          <p>사진은 경험의 증거, 모아는 친근한 안내자. 정보는 빠르게 읽히고 사용자가 찍은 순간은 오래 남는 화면을 만들어요.</p>
+        </section>
+
+        <div class="ds-grid">
+          <section class="ds-panel ds-panel--half" aria-labelledby="colors-title">
+            <div class="ds-panel-head"><h2 id="colors-title">색상</h2><span>그린 · 코랄 · 크림의 명확한 역할</span></div>
+            <div class="ds-swatches">
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#5fbd8c"></div><b>Moa Green</b><small>#5FBD8C · 브랜드·선택</small></div>
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#ef625f"></div><b>Moa Coral</b><small>#EF625F · 작은 강조</small></div>
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#faf6ed"></div><b>Moa Cream</b><small>#FAF6ED · 바탕</small></div>
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#2f5145"></div><b>Deep Green</b><small>#2F5145 · 글자·버튼</small></div>
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#fffcf7"></div><b>Warm White</b><small>#FFFCF7 · 카드</small></div>
+              <div class="ds-swatch"><div class="ds-swatch-color" style="--swatch:#d9ded7"></div><b>Soft Line</b><small>#D9DED7 · 구분선</small></div>
+            </div>
+          </section>
+
+          <section class="ds-panel ds-panel--half" aria-labelledby="type-title">
+            <div class="ds-panel-head"><h2 id="type-title">글자 위계</h2><span>Regular · Semibold만 사용</span></div>
+            <div class="ds-type-row ds-type-row--hero"><span>오늘은 어디를 가볼까요?</span><small>32 / 40</small></div>
+            <div class="ds-type-row ds-type-row--title"><span>모아진 장면</span><small>24 / 31</small></div>
+            <div class="ds-type-row ds-type-row--section"><span>내 주변의 순간</span><small>20 / 27</small></div>
+            <div class="ds-type-row ds-type-row--body"><span>직접 다녀온 사람의 사진을 보고 오늘 갈 곳을 골라요.</span><small>14 / 22</small></div>
+            <div class="ds-type-row ds-type-row--meta"><span>서울 · 9월의 한 장 · 방문자 사진</span><small>12 / 18</small></div>
+          </section>
+
+          <section class="ds-panel ds-panel--full" aria-labelledby="radius-title">
+            <div class="ds-panel-head"><h2 id="radius-title">모서리 반경</h2><span>4 · 8 · 12 · 16 · 20px만 사용</span></div>
+            <div class="ds-radius-grid">
+              <div class="ds-radius-item"><div class="ds-radius-shape" style="border-radius:var(--ds-radius-xs)">4</div><strong>XS · 4px</strong><small>작은 인디케이터</small></div>
+              <div class="ds-radius-item"><div class="ds-radius-shape" style="border-radius:var(--ds-radius-sm)">8</div><strong>S · 8px</strong><small>내부 요소·썸네일</small></div>
+              <div class="ds-radius-item"><div class="ds-radius-shape" style="border-radius:var(--ds-radius-md)">12</div><strong>M · 12px</strong><small>버튼·입력</small></div>
+              <div class="ds-radius-item"><div class="ds-radius-shape" style="border-radius:var(--ds-radius-lg)">16</div><strong>L · 16px</strong><small>목록 카드</small></div>
+              <div class="ds-radius-item"><div class="ds-radius-shape" style="border-radius:var(--ds-radius-xl)">20</div><strong>XL · 20px</strong><small>대표 카드·사진·시트</small></div>
+            </div>
+          </section>
+
+          <section class="ds-panel ds-panel--narrow" aria-labelledby="actions-title">
+            <div class="ds-panel-head"><h2 id="actions-title">행동</h2><span>한 화면에 주요 행동 하나</span></div>
+            <div class="ds-action-stack">
+              <button class="ds-button ds-button--primary" type="button">이 장소 자세히 보기 <span aria-hidden="true">↗</span></button>
+              <button class="ds-button ds-button--secondary" type="button">저장하기</button>
+              <button class="ds-button ds-button--tertiary" type="button">다른 지역 둘러보기 <span aria-hidden="true">›</span></button>
+              <button class="ds-button ds-button--primary" type="button" disabled>사진을 선택해 주세요</button>
+            </div>
+          </section>
+
+          <section class="ds-panel ds-panel--wide" aria-labelledby="controls-title">
+            <div class="ds-panel-head"><h2 id="controls-title">탐색과 상태</h2><span>장소 결정에 필요한 정보만</span></div>
+            <div style="display:grid;gap:16px;max-width:590px">
+              <button class="ds-location" type="button"><span aria-hidden="true">⌖</span><span>내 주변 · 서울</span><svg class="ds-location-chevron" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4.5 6 3.5 3.5L11.5 6"/></svg></button>
+              <button class="ds-search" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>어떤 장소를 찾고 있나요?</button>
+              <div class="ds-chips"><span class="ds-chip ds-chip--accent">9월의 장면</span><span class="ds-chip">서울 · 성수</span><span class="ds-chip ds-chip--positive">실시간 · 일대 혼잡 보통</span><span class="ds-chip ds-chip--warning">최신 정보 없음</span></div>
+            </div>
+          </section>
+
+          <section class="ds-panel ds-panel--wide" aria-labelledby="photo-title">
+            <div class="ds-panel-head"><h2 id="photo-title">월간 장면</h2><span>사용자가 보내준 사진으로 구성한 예시</span></div>
+            <div class="moment-component" data-moment-card></div>
+            <a class="ds-button ds-button--tertiary" href="design-system.html?view=moment">모바일 시안과 사진 등록 흐름 보기 <span aria-hidden="true">↗</span></a>
+          </section>
+
+          <section class="ds-panel ds-panel--narrow" aria-labelledby="spot-title">
+            <div class="ds-panel-head"><h2 id="spot-title">장소와 빈 상태</h2><span>사진 유무를 정직하게</span></div>
+            <div style="display:grid;gap:13px">
+              <div class="ds-spot-card"><div class="ds-spot-thumb">사진<br />없음</div><div class="ds-spot-copy"><small>서울 · 동대문</small><strong>DDP 야경 산책</strong><span>이 장소의 첫 장면을 기다려요</span></div><span class="ds-spot-arrow" aria-hidden="true">›</span></div>
+              <div class="ds-empty"><img src="assets/moa-base-explorer-v1.png" alt="탐험 메이트 모아" /><div><strong>아직 이곳의 사진이 없어요</strong><p>첫 방문의 순간을 남겨주면 다음 사람의 선택에 도움이 돼요.</p></div></div>
+            </div>
+          </section>
+
+          <section class="ds-panel ds-panel--full" aria-labelledby="rules-title">
+            <div class="ds-panel-head"><h2 id="rules-title">적용 규칙</h2><span>다음 홈 개편의 판단 기준</span></div>
+            <ul class="ds-notes">
+              <li><strong>사진은 사실로 다룬다.</strong> 방문자 사진, 운영처 제공 사진, 사진 없음의 출처를 절대 섞어 보이지 않는다.</li>
+              <li><strong>한 화면에는 주요 행동 하나.</strong> 나머지는 보조 버튼이나 텍스트 링크로 내려 위계를 분명히 한다.</li>
+              <li><strong>모아는 안내자다.</strong> 사진을 가리거나 경쟁하지 않고, 사진이 없을 때 친근한 빈 상태를 맡는다.</li>
+              <li><strong>혼잡도는 범위를 말한다.</strong> 장소 내부가 아닌 일대 데이터이며, 시각과 지원 여부를 함께 표시한다.</li>
+              <li><strong>모바일 먼저.</strong> 20px 좌우 여백, 최소 44px 터치 영역, 사진은 충분한 해상도일 때만 확대한다.</li>
+            </ul>
+          </section>
+        </div>
+        <p class="ds-page-footer">오늘 뭐하지 · Design foundations v0.1 · 반경 규칙만 기존 화면에 적용했고 홈 구조는 재설계 전이에요.</p>
+      </div>
+    </main>
+
+    <div class="moment-workspace" hidden>
+      <header class="moment-workspace-header">
+        <a href="design-system.html"><span aria-hidden="true">←</span> 디자인 시스템</a>
+      </header>
+      <main class="moment-workspace-body">
+        <section class="moment-stage" aria-label="모아진 순간 모바일 시안">
+          <div class="moment-stage-label"><span>01 — 모아진 순간</span><span>사진 + 선택한 한 줄</span></div>
+          <div class="moment-mobile">
+            <div data-moment-card></div>
+            <div class="moment-mobile-bottom"><span>직접 다녀온 사람들이 남긴 순간</span><span aria-hidden="true">↗</span></div>
+          </div>
+        </section>
+        <section class="moment-editor" aria-labelledby="moment-editor-title">
+          <div class="moment-stage-label"><span>02 — 사진을 남길 때</span><span>동작 미리보기</span></div>
+          <form id="moment-form">
+            <p class="moment-editor-eyebrow">방문 기록</p>
+            <h1 id="moment-editor-title">오늘의 사진을 남겨요</h1>
+            <p class="moment-editor-intro">한 줄을 함께 남기면<br>사진을 보는 사람에게도 도움이 돼요.</p>
+            <div class="moment-field-head"><span>방문 사진 <small>필수</small></span><button id="moment-remove-photo" type="button">사진 지우기</button></div>
+            <div class="moment-upload-preview">
+              <img id="moment-upload-image" alt="선택한 방문 사진" />
+              <span id="moment-upload-empty" hidden>방문한 곳의 사진을 골라주세요</span>
+            </div>
+            <div class="moment-photo-actions">
+              <label><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 6 9.5 3.5h5L16 6h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/><circle cx="12" cy="12.5" r="3.5"/></svg>사진 촬영<input type="file" accept="image/*" capture="environment" id="moment-camera" aria-label="방문 사진 촬영" /></label>
+              <label><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/></svg>앨범에서 선택<input type="file" accept="image/*" id="moment-album" aria-label="앨범에서 방문 사진 선택" /></label>
+            </div>
+            <div class="moment-note-heading"><label for="moment-note">오늘, 여기서 뭐가 좋았나요? <span>선택</span></label></div>
+            <div class="moment-note-box">
+              <textarea id="moment-note" rows="3" placeholder="해 질 무렵 한강이 정말 예뻐요." aria-describedby="moment-note-help moment-note-count"></textarea>
+              <span id="moment-note-count">0 / 40</span>
+            </div>
+            <p id="moment-note-help">한 줄을 쓰지 않아도 인증하고 도장을 받을 수 있어요.</p>
+            <p id="moment-form-error" class="moment-form-error" role="alert" hidden></p>
+            <button class="moment-submit" id="moment-submit" type="submit">인증하고 도장 받기 <span aria-hidden="true">→</span></button>
+            <p id="moment-form-result" role="status" hidden></p>
+          </form>
+          <div class="moment-demo-tools"><span>시안 확인</span><button id="moment-example-note" type="button">한 줄 예시 넣기</button><button id="moment-clear-note" type="button">한 줄 없이 보기</button></div>
+          <p class="moment-demo-disclaimer">사용자 제공 사진으로 만든 시안입니다. 예시 한 줄은 배치 확인용이며, 이 화면에서는 실제 인증·도장이 저장되지 않습니다.</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="moment-card-template">
+      <article class="moment-card" aria-label="모아진 순간 사진 카드">
+        <svg class="moment-border" viewBox="0 0 400 550" preserveAspectRatio="none" fill="none" aria-hidden="true">
+          <path d="M45 54C13 45 14 20 32 16C49 12 60 23 60 39C54 8 103 7 104 39C99 9 143 8 146 40C144 10 185 9 188 40C184 10 229 6 230 39C226 7 271 10 272 41C270 10 313 8 315 39C316 9 349 10 348 39C351 12 382 9 380 30C379 41 367 48 356 48" />
+          <path d="M45 54C9 51 14 84 39 86C9 82 9 116 39 118C8 114 11 146 38 150C8 144 8 179 38 181C9 178 10 211 38 213C9 210 10 244 39 245C11 243 11 273 39 276C8 273 8 306 39 309C10 307 10 339 40 342C12 337 9 372 39 374C9 369 10 405 38 407C9 403 11 435 40 439C12 435 11 468 39 470" />
+          <path d="M356 48C388 45 388 78 360 81C390 77 389 109 360 113C389 109 390 142 360 144C391 142 389 173 360 176C388 172 392 208 360 209C388 205 391 241 361 243C389 238 390 272 361 275C390 271 389 304 360 308C390 304 390 338 361 339C389 335 389 369 361 371C390 368 390 401 362 404C390 400 389 434 362 436C390 432 389 465 361 469" />
+          <path d="M39 470C4 479 16 512 39 510C53 510 58 500 58 490C53 526 100 528 102 496C99 528 144 529 145 497C142 529 185 527 186 495C184 528 228 529 230 496C228 529 271 526 272 495C270 528 315 528 316 494C315 527 349 526 349 496C357 521 383 518 382 497C382 483 372 474 361 469" />
+        </svg>
+        <div class="moment-card-content">
+          <p class="moment-card-overline">이달의 순간</p>
+          <h2 class="moment-card-title">모아진 순간</h2>
+          <div class="moment-picture-wrap">
+            <svg class="moment-spark moment-spark--left" viewBox="0 0 36 65" fill="none" aria-hidden="true"><path d="M17 4c-1 15-3 20-13 24 11 1 15 9 16 22 1-14 3-23 12-25-10-1-13-9-15-21ZM5 42c0 6-1 8-4 10 4 1 6 4 6 9 0-5 1-9 5-10-4-1-5-3-7-9" /><path d="m18 5-1 4M29 25l4 1"/></svg>
+            <figure class="moment-card-photo"><img data-moment-image alt="맑은 바다와 파스텔색 방파제 구조물이 담긴 방문 사진" /><span data-moment-empty hidden>사진을 선택하면<br>이곳에 보여요</span></figure>
+            <svg class="moment-spark moment-spark--right" viewBox="0 0 38 65" fill="none" aria-hidden="true"><path d="M17 3c-1 14-4 20-13 23 10 2 14 7 16 20 0-13 3-19 12-22C22 24 19 17 17 3ZM28 39c0 7-2 10-7 12 5 1 7 4 8 10 1-6 3-9 7-11-5-1-7-5-8-11" /></svg>
+          </div>
+          <p class="moment-card-note" data-moment-note hidden></p>
+          <svg class="moment-card-flower" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 17C5-3 0 17 16 22-5 35 17 45 22 28c13 21 25-1 6-6C48 9 26-3 22 17Z" fill="currentColor"/><circle cx="22" cy="22" r="3" fill="#fffaf1"/></svg>
+        </div>
+      </article>
+    </template>
+
+    <script>
+      (() => {
+        const isMomentView = new URLSearchParams(location.search).get("view") === "moment";
+        document.body.classList.toggle("is-moment-preview", isMomentView);
+        document.querySelector(".moment-workspace").hidden = !isMomentView;
+        if (isMomentView) document.title = "모아진 순간 · 디자인 시안";
+        const template = document.getElementById("moment-card-template");
+        document.querySelectorAll("[data-moment-card]").forEach(host => host.append(template.content.cloneNode(true)));
+        let photo = "assets/moa-moment-peek-v1.png";
+        let objectUrl = "";
+        let selectingPhoto = false;
+        let selectionVersion = 0;
+        const note = document.getElementById("moment-note");
+        const result = document.getElementById("moment-form-result");
+        const error = document.getElementById("moment-form-error");
+        const segmenter = new Intl.Segmenter("ko", { granularity: "grapheme" });
+        const characters = value => Array.from(segmenter.segment(value), entry => entry.segment);
+        const render = () => {
+          const text = note.value.trim();
+          document.querySelectorAll("[data-moment-note]").forEach(el => { el.textContent = text; el.hidden = !text; });
+          document.querySelectorAll("[data-moment-image], #moment-upload-image").forEach(el => {
+            el.hidden = !photo;
+            if (photo && el.getAttribute("src") !== photo) el.src = photo;
+            if (!photo) el.removeAttribute("src");
+          });
+          document.querySelectorAll("[data-moment-empty], #moment-upload-empty").forEach(el => { el.hidden = !!photo; });
+          document.getElementById("moment-note-count").textContent = characters(note.value).length + " / 40";
+          document.getElementById("moment-submit").disabled = !photo || selectingPhoto;
+          document.getElementById("moment-remove-photo").disabled = !photo;
+        };
+        const updateNote = () => {
+          note.value = characters(note.value.replace(/[\r\n]+/g, " ")).slice(0, 40).join("");
+          result.hidden = true;
+          render();
+        };
+        note.addEventListener("input", event => { if (!event.isComposing) updateNote(); });
+        note.addEventListener("compositionend", updateNote);
+        document.getElementById("moment-example-note").addEventListener("click", () => { note.value = "물이 맑아서 한참 구경했어요."; updateNote(); });
+        document.getElementById("moment-clear-note").addEventListener("click", () => { note.value = ""; updateNote(); });
+        document.getElementById("moment-remove-photo").addEventListener("click", () => {
+          selectionVersion++;
+          selectingPhoto = false;
+          if (objectUrl) URL.revokeObjectURL(objectUrl);
+          objectUrl = ""; photo = ""; result.hidden = true; render();
+        });
+        document.querySelectorAll(".moment-photo-actions input").forEach(input => input.addEventListener("change", async () => {
+          const file = input.files[0];
+          input.value = "";
+          if (!file) return;
+          error.hidden = true; result.hidden = true;
+          if (!file.type.startsWith("image/") || file.size > 20 * 1024 * 1024) {
+            error.textContent = "20MB 이하의 사진을 선택해 주세요."; error.hidden = false; return;
+          }
+          const version = ++selectionVersion;
+          selectingPhoto = true; render();
+          const url = URL.createObjectURL(file);
+          const image = new Image();
+          try {
+            image.src = url;
+            await image.decode();
+            if (version !== selectionVersion) { URL.revokeObjectURL(url); return; }
+            if (objectUrl) URL.revokeObjectURL(objectUrl);
+            objectUrl = url; photo = url;
+          } catch {
+            URL.revokeObjectURL(url);
+            if (version !== selectionVersion) return;
+            error.textContent = "이 사진을 열 수 없어요. JPG나 PNG 사진을 선택해 주세요."; error.hidden = false;
+          } finally {
+            if (version === selectionVersion) { selectingPhoto = false; render(); }
+          }
+        }));
+        document.getElementById("moment-form").addEventListener("submit", event => {
+          event.preventDefault();
+          if (!photo || selectingPhoto) return;
+          result.textContent = note.value.trim() ? "미리보기 완료 · 사진과 한 줄로 인증할 수 있어요." : "미리보기 완료 · 한 줄 없이도 인증하고 도장을 받을 수 있어요.";
+          result.hidden = false;
+        });
+        const sample = new Image();
+        sample.onerror = () => {
+          if (photo.startsWith("assets/")) { photo = ""; render(); }
+        };
+        sample.src = photo;
+        render();
+      })();
+    </script>
+
+  </body>
+</html>

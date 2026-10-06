@@ -1,0 +1,2793 @@
+{
+  "date": "2026-10-05",
+  "total": 390,
+  "batch": 3,
+  "rows": [
+    {
+      "id": "daegu-thepollack",
+      "title": "더폴락",
+      "emoji": "📚",
+      "region": "대구",
+      "area": "중구",
+      "desc": "책과 커피가 있는 감성 독립서점 북카페. 조용히 머물기 좋아요.",
+      "address": "대구 중구 경상감영1길 62-5",
+      "lat": 35.87365342979327,
+      "lng": 128.59323285697502,
+      "kakaoUrl": "http://place.map.kakao.com/22757401",
+      "searchQuery": "대구 더폴락",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "대구",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-delmundo",
+      "title": "델문도",
+      "emoji": "☕",
+      "region": "제주",
+      "area": "조천읍",
+      "desc": "파도가 바로 앞에서 부서지는 오션뷰 카페. 제주 바다 감성 가득.",
+      "address": "제주특별자치도 제주시 조천읍 조함해안로 519-10",
+      "lat": 33.5437093358268,
+      "lng": 126.668723957376,
+      "kakaoUrl": "http://place.map.kakao.com/26867476",
+      "searchQuery": "제주 델문도",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-bomnal",
+      "title": "봄날카페",
+      "emoji": "☕",
+      "region": "제주",
+      "area": "애월읍",
+      "desc": "애월 바다를 마주한 감성 카페. 드라마에도 나온 인생샷 명소예요.",
+      "address": "제주특별자치도 제주시 애월읍 애월로1길 25",
+      "lat": 33.462419216693945,
+      "lng": 126.30960909696505,
+      "kakaoUrl": "http://place.map.kakao.com/693062983",
+      "searchQuery": "애월 봄날카페",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "chungbuk-hwayang",
+      "title": "화양구곡",
+      "emoji": "💧",
+      "region": "충북",
+      "area": "괴산",
+      "desc": "기암괴석과 맑은 계곡물. 발 담그고 더위 식히기 좋은 여름 피서지.",
+      "address": "충북 괴산군 청천면 화양리 456",
+      "lat": 36.66851329696438,
+      "lng": 127.8132368534544,
+      "kakaoUrl": "http://place.map.kakao.com/23256378",
+      "searchQuery": "괴산 화양구곡",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "gyeongnam-hamyang-yongchu",
+      "title": "함양 용추계곡",
+      "emoji": "💧",
+      "region": "경남",
+      "area": "함양",
+      "desc": "용추폭포와 맑은 소가 있는 계곡. 시원한 물소리에 더위가 가셔요.",
+      "address": "경남 함양군 안의면 상원리 산 16-3",
+      "lat": 35.688475707850614,
+      "lng": 127.76383851457938,
+      "kakaoUrl": "http://place.map.kakao.com/8148700",
+      "searchQuery": "함양 용추계곡",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "경남",
+      "regionCorrected": false
+    },
+    {
+      "id": "busan-hwangnyeong",
+      "title": "황령산 봉수대",
+      "emoji": "🌃",
+      "region": "부산",
+      "area": "부산진",
+      "desc": "부산 시내와 바다가 한눈에. 대표 야경 명소로 밤에 더 예뻐요.",
+      "address": "부산 부산진구 전포동 50-1",
+      "lat": 35.1572485849507,
+      "lng": 129.081975486375,
+      "kakaoUrl": "http://place.map.kakao.com/8692767",
+      "searchQuery": "부산 황령산 봉수대",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "부산",
+      "regionCorrected": false
+    },
+    {
+      "id": "busan-yongdusan",
+      "title": "용두산공원 (부산타워)",
+      "emoji": "🗼",
+      "region": "부산",
+      "area": "중구",
+      "desc": "부산타워가 있는 도심 전망 공원. 원도심 야경을 내려다봐요.",
+      "address": "부산 중구 용두산길 37-55",
+      "lat": 35.10093050445418,
+      "lng": 129.03244338014895,
+      "kakaoUrl": "http://place.map.kakao.com/11339636",
+      "searchQuery": "부산타워",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "부산",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeonnam-dolsan",
+      "title": "돌산공원",
+      "emoji": "🌃",
+      "region": "전남",
+      "area": "여수",
+      "desc": "여수 밤바다와 케이블카 불빛이 펼쳐지는 야경 명소예요.",
+      "address": "전남광주통합특별시 여수시 돌산읍 우두리 799-76",
+      "lat": 34.7305471491985,
+      "lng": 127.739927808873,
+      "kakaoUrl": "http://place.map.kakao.com/7843359",
+      "searchQuery": "여수 돌산공원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "전남",
+      "regionCorrected": false
+    },
+    {
+      "id": "daejeon-bomunsan",
+      "title": "보문산 전망대",
+      "emoji": "🌃",
+      "region": "대전",
+      "area": "중구",
+      "desc": "대전 시내 야경을 담는 전망대(보운대). 밤 드라이브 코스로 좋아요.",
+      "address": "대전 중구 대사동 산 1-65",
+      "lat": 36.3114125896249,
+      "lng": 127.42395944181752,
+      "kakaoUrl": "http://place.map.kakao.com/11072965",
+      "searchQuery": "대전 보문산 전망대",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "대전",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeonbuk-omokdae",
+      "title": "오목대",
+      "emoji": "🏯",
+      "region": "전북",
+      "area": "전주",
+      "desc": "한옥마을 기와 물결을 내려다보는 전망 정자. 야경도 예뻐요.",
+      "address": "전북특별자치도 전주시 완산구 기린대로 55",
+      "lat": 35.8143819050269,
+      "lng": 127.154583362895,
+      "kakaoUrl": "http://place.map.kakao.com/8458699",
+      "searchQuery": "전주 오목대",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "전북",
+      "regionCorrected": false
+    },
+    {
+      "id": "gyeongnam-yisunsin",
+      "title": "이순신공원",
+      "emoji": "🌊",
+      "region": "경남",
+      "area": "통영",
+      "desc": "한산대첩 바다를 품은 공원. 몽돌해변과 탁 트인 바다뷰가 시원해요.",
+      "address": "경남 통영시 정량동 628",
+      "lat": 34.84380765625365,
+      "lng": 128.44282467452436,
+      "kakaoUrl": "http://place.map.kakao.com/11807745",
+      "searchQuery": "통영 이순신공원",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경남",
+      "regionCorrected": false
+    },
+    {
+      "id": "daegu-dolpino",
+      "title": "돌피노",
+      "emoji": "🍷",
+      "region": "대구",
+      "area": "수성",
+      "desc": "수성못 근처 감성 와인바. 잔잔한 분위기에서 한잔하기 좋아요.",
+      "address": "대구 수성구 수성못2길 1",
+      "lat": 35.826045147879995,
+      "lng": 128.6222498358535,
+      "kakaoUrl": "http://place.map.kakao.com/289985710",
+      "searchQuery": "돌피노 수성못",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "대구",
+      "regionCorrected": false
+    },
+    {
+      "id": "gangneung-sageunjin",
+      "title": "사근진해변",
+      "emoji": "🏖️",
+      "region": "강원",
+      "area": "강릉",
+      "desc": "경포 위쪽 아담한 해변. 바다뷰 카페와 함께 한적하게 즐겨요.",
+      "address": "강원특별자치도 강릉시 해안로604번길 14",
+      "lat": 37.8136129609739,
+      "lng": 128.897555797396,
+      "kakaoUrl": "http://place.map.kakao.com/8398420",
+      "searchQuery": "강릉 사근진해변",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "강원",
+      "regionCorrected": false
+    },
+    {
+      "id": "gimpo-shibanouchi",
+      "title": "시바노우치",
+      "emoji": "🐕",
+      "region": "경기",
+      "area": "김포",
+      "desc": "일본 감성 플랜테리어 공간에서 시바견들이 반겨주는 초대형 애견카페예요.",
+      "address": "경기 김포시 김포한강9로75번길 142",
+      "lat": 37.6445101269997,
+      "lng": 126.622513945875,
+      "kakaoUrl": "http://place.map.kakao.com/1426468276",
+      "searchQuery": "시바노우치 김포",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "yongin-forest-outings",
+      "title": "포레스트 아웃팅스 용인점",
+      "emoji": "🌿",
+      "region": "경기",
+      "area": "용인",
+      "desc": "온실 가득 초록 식물로 채운 대형 식물원 카페. 실내라 더위 걱정 없어요.",
+      "address": "경기 용인시 기흥구 농서로 4",
+      "lat": 37.22315855647,
+      "lng": 127.097642978292,
+      "kakaoUrl": "http://place.map.kakao.com/1132246493",
+      "searchQuery": "포레스트 아웃팅스 용인",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "bucheon-dohwamong",
+      "title": "도화몽",
+      "emoji": "🌸",
+      "region": "경기",
+      "area": "부천",
+      "desc": "부천자연생태공원 속 온실 식물원. 꽃과 초록 사이를 시원하게 거닐어요.",
+      "address": "경기 부천시 원미구 춘의동 382",
+      "lat": 37.503267690467,
+      "lng": 126.817740296502,
+      "kakaoUrl": "http://place.map.kakao.com/1012715456",
+      "searchQuery": "부천자연생태공원 도화몽",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "bucheon-supia",
+      "title": "부천호수식물원 수피아",
+      "emoji": "🌺",
+      "region": "경기",
+      "area": "부천",
+      "desc": "상동호수공원 안 실내 식물원. 유리온실 속 초록으로 더위를 식혀요.",
+      "address": "경기 부천시 원미구 조마루로 15",
+      "lat": 37.50535786976324,
+      "lng": 126.74636165306458,
+      "kakaoUrl": "http://place.map.kakao.com/1629419905",
+      "searchQuery": "부천호수식물원 수피아",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "mapo-chaegro",
+      "title": "채그로",
+      "emoji": "📚",
+      "region": "서울",
+      "area": "마포",
+      "desc": "천장까지 책으로 가득한 대형 북카페. 시원한 실내에서 조용히 쉬어가요.",
+      "address": "서울 마포구 마포대로4다길 31",
+      "lat": 37.53567718727835,
+      "lng": 126.9442745778381,
+      "kakaoUrl": "http://place.map.kakao.com/2072126681",
+      "searchQuery": "채그로",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "서울",
+      "regionCorrected": false
+    },
+    {
+      "id": "mungyeong-cave",
+      "title": "까브 동굴카페",
+      "emoji": "☕",
+      "region": "경북",
+      "area": "문경",
+      "desc": "옛 광산을 개조한 동굴 카페. 한여름에도 서늘한 동굴 속에서 커피 한잔해요.",
+      "address": "경북 문경시 동로면 안생달길 281",
+      "lat": 36.8160059486562,
+      "lng": 128.263647301907,
+      "kakaoUrl": "http://place.map.kakao.com/18239329",
+      "searchQuery": "까브 문경 동굴카페",
+      "company": "both",
+      "moods": [
+        "cool",
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경북",
+      "regionCorrected": false
+    },
+    {
+      "id": "chungju-hwarok-cave",
+      "title": "활옥동굴",
+      "emoji": "⛏️",
+      "region": "충북",
+      "area": "충주",
+      "desc": "한여름에도 11도 서늘한 활석 광산 동굴. 지하 호수 카약까지 즐겨요.",
+      "address": "충북 충주시 목벌동 319-16",
+      "lat": 36.96114793832826,
+      "lng": 128.00662801063672,
+      "kakaoUrl": "http://place.map.kakao.com/531411391",
+      "searchQuery": "충주 활옥동굴",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "danyang-paragliding",
+      "title": "단양 패러글라이딩",
+      "emoji": "🪂",
+      "region": "충북",
+      "area": "단양",
+      "desc": "남한강과 산맥이 한눈에. 하늘을 나는 짜릿함으로 더위를 날려요.",
+      "address": "충북 단양군 가곡면 두산길 196-88",
+      "lat": 36.99423128802485,
+      "lng": 128.394885661744,
+      "kakaoUrl": "http://place.map.kakao.com/1353187894",
+      "searchQuery": "단양 패러글라이딩",
+      "company": "both",
+      "moods": [
+        "active",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "danyang-alpine-coaster",
+      "title": "만천하 알파인코스터",
+      "emoji": "🎢",
+      "region": "충북",
+      "area": "단양",
+      "desc": "산비탈을 따라 내리달리는 무동력 코스터. 남한강 절경 보며 짜릿하게 질주해요.",
+      "address": "충북 단양군 적성면 옷바위길 10",
+      "lat": 36.97760500501789,
+      "lng": 128.3370975500808,
+      "kakaoUrl": "http://place.map.kakao.com/814205613",
+      "searchQuery": "단양 만천하스카이워크",
+      "company": "both",
+      "moods": [
+        "active",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "danyang-gosu-cave",
+      "title": "고수동굴",
+      "emoji": "🕳️",
+      "region": "충북",
+      "area": "단양",
+      "desc": "종유석 가득한 천연 석회동굴. 한여름에도 서늘한 지하를 탐험해요.",
+      "address": "충북 단양군 단양읍 고수동굴길 8",
+      "lat": 36.98882995298925,
+      "lng": 128.38169508369575,
+      "kakaoUrl": "http://place.map.kakao.com/8195755",
+      "searchQuery": "단양 고수동굴",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "danyang-suyanggae-tunnel",
+      "title": "수양개빛터널",
+      "emoji": "✨",
+      "region": "충북",
+      "area": "단양",
+      "desc": "옛 철도 터널을 수놓은 화려한 빛 공간. 시원한 실내에서 감성 사진 찍기 좋아요.",
+      "address": "충북 단양군 적성면 수양개유적로 390",
+      "lat": 36.960464752771415,
+      "lng": 128.33246492194613,
+      "kakaoUrl": "http://place.map.kakao.com/1871856499",
+      "searchQuery": "수양개빛터널",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "충북",
+      "regionCorrected": false
+    },
+    {
+      "id": "gongju-goma-train",
+      "title": "공주 고마열차",
+      "emoji": "🚂",
+      "region": "충남",
+      "area": "공주",
+      "desc": "공주 원도심과 금강을 도는 관광 열차. 느긋하게 도시 한 바퀴 둘러봐요.",
+      "address": "충남 공주시 웅진동 산 21-3",
+      "lat": 36.47064200838497,
+      "lng": 127.1070237989073,
+      "kakaoUrl": "http://place.map.kakao.com/12777448",
+      "searchQuery": "공주 고마나루",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "충남",
+      "regionCorrected": false
+    },
+    {
+      "id": "gongju-yugu-hydrangea",
+      "title": "유구색동수국정원",
+      "emoji": "💠",
+      "region": "충남",
+      "area": "공주",
+      "desc": "유구천 따라 수국이 흐드러진 정원. 파랑·보라 수국 사이를 거닐어요.",
+      "address": "충남 공주시 유구읍 유구리 648-17",
+      "lat": 36.55548368648478,
+      "lng": 126.95439148514184,
+      "kakaoUrl": "http://place.map.kakao.com/2039968542",
+      "searchQuery": "공주 유구색동수국정원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "충남",
+      "regionCorrected": false
+    },
+    {
+      "id": "namhae-seomi-garden",
+      "title": "섬이정원",
+      "emoji": "🌿",
+      "region": "경남",
+      "area": "남해",
+      "desc": "산자락에 가꾼 계단식 정원. 초록 사이를 걸으며 남해 풍경을 담아요.",
+      "address": "경남 남해군 남면 남면로 1534-110",
+      "lat": 34.7522489751291,
+      "lng": 127.860651270157,
+      "kakaoUrl": "http://place.map.kakao.com/2036248218",
+      "searchQuery": "남해 섬이정원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경남",
+      "regionCorrected": false
+    },
+    {
+      "id": "namhae-cafetol",
+      "title": "카페톨",
+      "emoji": "☕",
+      "region": "경남",
+      "area": "남해",
+      "desc": "남해 바다 앞 오션뷰 카페. 통창 너머 파도 보며 커피 한잔해요.",
+      "address": "경남 남해군 남면 남면로679번길 17-27",
+      "lat": 34.72681693073353,
+      "lng": 127.89497050363647,
+      "kakaoUrl": "http://place.map.kakao.com/1051163190",
+      "searchQuery": "남해 카페톨",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경남",
+      "regionCorrected": false
+    },
+    {
+      "id": "namhae-baraeon",
+      "title": "바래온 소품샵",
+      "emoji": "🛍️",
+      "region": "경남",
+      "area": "남해",
+      "desc": "남해 감성 담은 소품샵. 여행 기념품 구경하며 천천히 둘러봐요.",
+      "address": "경남 남해군 남해읍 스포츠로 173-9",
+      "lat": 34.82151520592322,
+      "lng": 127.88901797060615,
+      "kakaoUrl": "http://place.map.kakao.com/1870268750",
+      "searchQuery": "바래온 남해",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경남",
+      "regionCorrected": false
+    },
+    {
+      "id": "namyangju-ludensia",
+      "title": "루덴시아",
+      "emoji": "🏰",
+      "region": "경기",
+      "area": "여주",
+      "desc": "유럽 골목을 통째로 옮긴 듯한 테마 스튜디오. 어디서 찍어도 이국적인 인생샷이에요.",
+      "address": "경기 여주시 산북면 금품1로 177",
+      "lat": 37.4015773307539,
+      "lng": 127.461425889641,
+      "kakaoUrl": "http://place.map.kakao.com/1476373647",
+      "searchQuery": "루덴시아",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "suncheon-bay-garden",
+      "title": "순천만국가정원",
+      "emoji": "🌷",
+      "region": "전남",
+      "area": "순천",
+      "desc": "국내 첫 국가정원. 드넓은 정원과 습지를 걸으며 초록에 푹 빠져요.",
+      "address": "전남광주통합특별시 순천시 국가정원1호길 47",
+      "lat": 34.9292183256846,
+      "lng": 127.498901621838,
+      "kakaoUrl": "http://place.map.kakao.com/25052480",
+      "searchQuery": "순천만국가정원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "전남",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-jeongbang",
+      "title": "정방폭포",
+      "emoji": "💦",
+      "region": "제주",
+      "area": "서귀포",
+      "desc": "바다로 곧장 떨어지는 폭포. 물보라와 파도 소리에 더위가 싹 가셔요.",
+      "address": "제주특별자치도 서귀포시 서귀동",
+      "lat": 33.24490888344185,
+      "lng": 126.57152630834372,
+      "kakaoUrl": "http://place.map.kakao.com/10717401",
+      "searchQuery": "제주 정방폭포",
+      "company": "both",
+      "moods": [
+        "cool",
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-changkkom",
+      "title": "창꼼바위",
+      "emoji": "🪨",
+      "region": "제주",
+      "area": "제주",
+      "desc": "바위 구멍 사이로 우도가 담기는 숨은 포토스팟. 종달리 바다뷰가 예뻐요.",
+      "address": "제주특별자치도 제주시 조천읍 북촌리 403-9",
+      "lat": 33.5529420329351,
+      "lng": 126.700002492755,
+      "kakaoUrl": "http://place.map.kakao.com/1922453785",
+      "searchQuery": "제주 창꼼바위",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "seoul-cafe-pokpo",
+      "title": "카페폭포",
+      "emoji": "☕",
+      "region": "서울",
+      "area": "서대문",
+      "desc": "홍제천 폭포 옆에 자리한 카페. 쏟아지는 물줄기 보며 시원하게 쉬어가요.",
+      "address": "서울 서대문구 연희로 262-24",
+      "lat": 37.581302749887186,
+      "lng": 126.93704933311089,
+      "kakaoUrl": "http://place.map.kakao.com/7785544",
+      "searchQuery": "홍제천 카페폭포",
+      "company": "both",
+      "moods": [
+        "cool",
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "서울",
+      "regionCorrected": false
+    },
+    {
+      "id": "seoul-1in1sang",
+      "title": "1인1상",
+      "emoji": "🍚",
+      "region": "서울",
+      "area": "은평",
+      "desc": "혼자여도 한 상 가득 차려주는 한식당. 정갈한 상차림으로 든든하게 채워요.",
+      "address": "서울 은평구 연서로 534",
+      "lat": 37.6409558989433,
+      "lng": 126.937937180494,
+      "kakaoUrl": "http://place.map.kakao.com/875527532",
+      "searchQuery": "서울 1인1상",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "서울",
+      "regionCorrected": false
+    },
+    {
+      "id": "seoul-huijak",
+      "title": "희작",
+      "emoji": "🍶",
+      "region": "서울",
+      "area": "종로",
+      "desc": "고즈넉한 한옥 감성 공간. 도심 속에서 여유롭게 한잔 기울여요.",
+      "address": "서울 종로구 백석동길 155",
+      "lat": 37.5955093605678,
+      "lng": 126.967728309089,
+      "kakaoUrl": "http://place.map.kakao.com/1426336200",
+      "searchQuery": "서울 희작",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "서울",
+      "regionCorrected": false
+    },
+    {
+      "id": "seoul-sanmotoonge",
+      "title": "산모퉁이",
+      "emoji": "☕",
+      "region": "서울",
+      "area": "종로",
+      "desc": "부암동 언덕 위 드라마 촬영지 카페. 서울 전망 보며 커피 한잔해요.",
+      "address": "서울 종로구 백석동길 153",
+      "lat": 37.5954247204695,
+      "lng": 126.967923107901,
+      "kakaoUrl": "http://place.map.kakao.com/7912367",
+      "searchQuery": "산모퉁이 부암동",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "서울",
+      "regionCorrected": false
+    },
+    {
+      "id": "wirye-graphic-daesin",
+      "title": "그래픽바이대신",
+      "emoji": "🍰",
+      "region": "서울",
+      "area": "위례",
+      "desc": "위례 감성 디저트 카페. 예쁜 디저트와 커피로 여유로운 오후를 보내요.",
+      "address": "서울 송파구 위례순환로 387",
+      "lat": 37.4778491990546,
+      "lng": 127.143887758869,
+      "kakaoUrl": "http://place.map.kakao.com/1560674601",
+      "searchQuery": "위례 그래픽바이대신",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": true
+    },
+    {
+      "id": "yongin-gogiri-valley",
+      "title": "고기리 계곡",
+      "emoji": "🏞️",
+      "region": "경기",
+      "area": "용인",
+      "desc": "용인 고기리의 시원한 계곡. 물놀이하며 한여름 더위를 식혀요.",
+      "address": "경기 용인시 수지구 고기동 821",
+      "lat": 37.3585237105685,
+      "lng": 127.044338085061,
+      "kakaoUrl": "http://place.map.kakao.com/8178901",
+      "searchQuery": "용인 고기리계곡",
+      "company": "both",
+      "moods": [
+        "cool",
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "yongin-jajaknamu-forest",
+      "title": "자작나무숲",
+      "emoji": "🌲",
+      "region": "경기",
+      "area": "용인",
+      "desc": "하얀 자작나무가 우거진 숲속 카페. 그늘 아래서 여유를 즐겨요.",
+      "address": "경기 용인시 처인구 백암면 황새울로 231",
+      "lat": 37.111239842342,
+      "lng": 127.352624873608,
+      "kakaoUrl": "http://place.map.kakao.com/724643513",
+      "searchQuery": "용인 자작나무숲",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "yongin-mukri459",
+      "title": "묵리459",
+      "emoji": "☕",
+      "region": "경기",
+      "area": "용인",
+      "desc": "숲으로 둘러싸인 대형 자연 카페. 초록 뷰 보며 커피 한잔해요.",
+      "address": "경기 용인시 처인구 이동읍 이원로 484",
+      "lat": 37.169125513865794,
+      "lng": 127.23845283768885,
+      "kakaoUrl": "http://place.map.kakao.com/42583982",
+      "searchQuery": "용인 묵리459",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "yongin-arirangdowon",
+      "title": "아리랑도원",
+      "emoji": "🌿",
+      "region": "경기",
+      "area": "용인",
+      "desc": "한옥과 정원이 어우러진 감성 카페. 고즈넉한 분위기가 매력이에요.",
+      "address": "경기 용인시 처인구 남사읍 통삼로 495",
+      "lat": 37.14134212393628,
+      "lng": 127.13586441368044,
+      "kakaoUrl": "http://place.map.kakao.com/996928652",
+      "searchQuery": "용인 아리랑도원",
+      "company": "couple",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "yeosu-jangdo",
+      "title": "장도",
+      "emoji": "🏝️",
+      "region": "전남",
+      "area": "여수",
+      "desc": "물때 맞춰 건너는 여수의 예술 섬. 바다 위 산책과 전시를 즐겨요.",
+      "address": "전남광주통합특별시 여수시 웅천동 산 274",
+      "lat": 34.7433788017289,
+      "lng": 127.664361904195,
+      "kakaoUrl": "http://place.map.kakao.com/25350661",
+      "searchQuery": "여수 장도",
+      "company": "both",
+      "moods": [
+        "chill",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "전남",
+      "regionCorrected": false
+    },
+    {
+      "id": "gwangju-dongridangil",
+      "title": "동리단길",
+      "emoji": "🍽️",
+      "region": "광주",
+      "area": "동명동",
+      "desc": "광주 동명동의 골목 카페거리. 예쁜 가게 구경하며 걸어봐요.",
+      "address": "전남광주통합특별시 동구 동명동 292",
+      "lat": 35.1493799198158,
+      "lng": 126.924365108666,
+      "kakaoUrl": "http://place.map.kakao.com/801525831",
+      "searchQuery": "광주 동리단길",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "광주",
+      "regionCorrected": false
+    },
+    {
+      "id": "gwangju-travelers-house",
+      "title": "여행자의 집",
+      "emoji": "☕",
+      "region": "광주",
+      "area": "동명동",
+      "desc": "여행 온 듯한 감성의 아늑한 카페. 느긋하게 쉬어가기 좋아요.",
+      "address": "전남광주통합특별시 동구 동계천로 137-17",
+      "lat": 35.1499149016277,
+      "lng": 126.925129527368,
+      "kakaoUrl": "http://place.map.kakao.com/1060139914",
+      "searchQuery": "광주 여행자의집",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "광주",
+      "regionCorrected": false
+    },
+    {
+      "id": "gangjin-bunker-cafe",
+      "title": "벙커카페",
+      "emoji": "☕",
+      "region": "전남",
+      "area": "강진",
+      "desc": "이색적인 벙커 콘셉트 카페. 독특한 공간에서 커피를 즐겨요.",
+      "address": "전남광주통합특별시 강진군 마량면 까막섬로 73",
+      "lat": 34.4538591008909,
+      "lng": 126.807688736724,
+      "kakaoUrl": "http://place.map.kakao.com/1201655501",
+      "searchQuery": "강진 벙커카페",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "전남",
+      "regionCorrected": false
+    },
+    {
+      "id": "namwon-jirisan-herb",
+      "title": "지리산 허브밸리",
+      "emoji": "🌿",
+      "region": "전북",
+      "area": "남원",
+      "desc": "지리산 자락의 허브 정원. 향긋한 꽃밭 사이를 거닐어요.",
+      "address": "전북특별자치도 남원시 운봉읍 바래봉길 214",
+      "lat": 35.4342159349975,
+      "lng": 127.547316530567,
+      "kakaoUrl": "http://place.map.kakao.com/24264884",
+      "searchQuery": "남원 지리산허브밸리",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "전북",
+      "regionCorrected": false
+    },
+    {
+      "id": "namwon-adamwon",
+      "title": "아담원",
+      "emoji": "🌳",
+      "region": "전북",
+      "area": "남원",
+      "desc": "숲과 연못이 어우러진 수목 정원. 자연 속에서 산책하며 힐링해요.",
+      "address": "전북특별자치도 남원시 이백면 목가길 193",
+      "lat": 35.44055905281073,
+      "lng": 127.47682439004551,
+      "kakaoUrl": "http://place.map.kakao.com/1477622286",
+      "searchQuery": "남원 아담원",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "전북",
+      "regionCorrected": false
+    },
+    {
+      "id": "namwon-yocheon-fountain",
+      "title": "요천 음악분수",
+      "emoji": "⛲",
+      "region": "전북",
+      "area": "남원",
+      "desc": "요천을 수놓는 음악분수 쇼. 해 지면 시원한 물줄기와 조명을 즐겨요.",
+      "address": "전북특별자치도 남원시 어현동 741",
+      "lat": 35.4028624068143,
+      "lng": 127.384351529483,
+      "kakaoUrl": "http://place.map.kakao.com/1861543723",
+      "searchQuery": "남원 요천 음악분수",
+      "company": "both",
+      "moods": [
+        "active",
+        "chill"
+      ],
+      "time": "night",
+      "sourceRegion": "전북",
+      "regionCorrected": false
+    },
+    {
+      "id": "namwon-baemsagol-valley",
+      "title": "뱀사골 계곡",
+      "emoji": "🏞️",
+      "region": "전북",
+      "area": "남원",
+      "desc": "지리산 뱀사골의 맑은 계곡. 울창한 숲길 따라 시원하게 트레킹해요.",
+      "address": "전북특별자치도 남원시 산내면 부운리",
+      "lat": 35.3598371076857,
+      "lng": 127.586321998097,
+      "kakaoUrl": "http://place.map.kakao.com/8386093",
+      "searchQuery": "지리산 뱀사골계곡",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "전북",
+      "regionCorrected": false
+    },
+    {
+      "id": "yongin-myeongsudang",
+      "title": "명수당",
+      "emoji": "🪷",
+      "region": "경기",
+      "area": "용인",
+      "desc": "연꽃 가득한 한옥 정원. 여름엔 연못 위 정자에서 여유를 즐겨요.",
+      "address": "경기 용인시 처인구 모현읍 왕산리 138",
+      "lat": 37.3388190707775,
+      "lng": 127.270129579647,
+      "kakaoUrl": "http://place.map.kakao.com/19745954",
+      "searchQuery": "용인 명수당",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "경기",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-vicheorin",
+      "title": "비체올린",
+      "emoji": "🌷",
+      "region": "제주",
+      "area": "제주시",
+      "desc": "꽃과 조각이 어우러진 문화 정원. 알록달록한 꽃밭 사이를 거닐어요.",
+      "address": "제주특별자치도 제주시 한경면 판조로 253-6",
+      "lat": 33.349473694100105,
+      "lng": 126.2185698699137,
+      "kakaoUrl": "http://place.map.kakao.com/27126780",
+      "searchQuery": "제주 비체올린",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-handam-trail",
+      "title": "한담해안산책로",
+      "emoji": "🌊",
+      "region": "제주",
+      "area": "애월",
+      "desc": "애월 바다를 끼고 걷는 산책로. 에메랄드빛 해안 따라 시원하게 걸어요.",
+      "address": "제주특별자치도 제주시 애월읍 애월리 2489-3",
+      "lat": 33.461980076864386,
+      "lng": 126.31056884366741,
+      "kakaoUrl": "http://place.map.kakao.com/23705150",
+      "searchQuery": "제주 한담해안산책로",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-panpo-port",
+      "title": "판포포구",
+      "emoji": "🤿",
+      "region": "제주",
+      "area": "한경",
+      "desc": "천연 물놀이 명소로 유명한 포구. 맑은 물에서 스노클링을 즐겨요.",
+      "address": "제주특별자치도 제주시 한경면 판포리",
+      "lat": 33.365021627537,
+      "lng": 126.200023263531,
+      "kakaoUrl": "http://place.map.kakao.com/8638077",
+      "searchQuery": "제주 판포포구",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-jungmun-beach",
+      "title": "중문색달해수욕장",
+      "emoji": "🏖️",
+      "region": "제주",
+      "area": "서귀포",
+      "desc": "이국적인 파도의 서귀포 해변. 서핑과 해수욕을 시원하게 즐겨요.",
+      "address": "제주특별자치도 서귀포시 색달동 3039",
+      "lat": 33.2450381505136,
+      "lng": 126.411498674889,
+      "kakaoUrl": "http://place.map.kakao.com/8069764",
+      "searchQuery": "중문색달해수욕장",
+      "company": "both",
+      "moods": [
+        "cool",
+        "active"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-saryeoni-forest",
+      "title": "사려니숲길",
+      "emoji": "🌲",
+      "region": "제주",
+      "area": "제주시",
+      "desc": "삼나무 우거진 숲길. 서늘한 나무 그늘 아래 힐링 산책을 해요.",
+      "address": "제주특별자치도 제주시 조천읍 교래리 산 137-1",
+      "lat": 33.422032834994496,
+      "lng": 126.62649730394567,
+      "kakaoUrl": "http://place.map.kakao.com/26319779",
+      "searchQuery": "제주 사려니숲길",
+      "company": "both",
+      "moods": [
+        "cool",
+        "chill"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "jeju-camellia-hill",
+      "title": "카멜리아힐",
+      "emoji": "🌺",
+      "region": "제주",
+      "area": "서귀포",
+      "desc": "계절마다 꽃이 피는 서귀포 대형 수목원. 초록 정원 사이로 시원하게 산책해요.",
+      "address": "제주특별자치도 서귀포시 안덕면 병악로 166",
+      "lat": 33.290336568694215,
+      "lng": 126.36819010853146,
+      "kakaoUrl": "http://place.map.kakao.com/9461977",
+      "searchQuery": "제주 까멜리아힐",
+      "company": "both",
+      "moods": [
+        "chill",
+        "cool"
+      ],
+      "time": "day",
+      "sourceRegion": "제주",
+      "regionCorrected": false
+    },
+    {
+      "id": "seoul-changdeokgung-secret-garden",
+      "title": "창덕궁 후원 단풍",
+      "emoji": "🏯",
+      "region": "서울",
+      "area": "종로",
+      "desc": "고궁 연못과 정자 사이로 단풍이 겹쳐지는 가을 명소. 후원 관람은 예약 여부를 먼저 확인해요.",
+      "address": "서울 종로구 율곡로 99",
+      "searchQuery": "창덕궁 후원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 단풍 · 예약 확인",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://royal.khs.go.kr/ROYAL/contents/R701000000.do",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "seoul-pureun-arboretum-autumn",
+      "title": "푸른수목원 단풍 산책",
+      "emoji": "🍂",
+      "region": "서울",
+      "area": "구로",
+      "desc": "철길 옆 수목원에서 단풍과 습지원 풍경을 함께 보는 조용한 도심 산책 코스예요.",
+      "address": "서울 구로구 연동로 240",
+      "searchQuery": "푸른수목원",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 단풍 추천",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://parks.seoul.go.kr/maps/puleunsumogwon/puleunsumogwon_leaflet.pdf",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "gyeonggi-pocheon-garden-festa-2026",
+      "title": "포천 한탄강 가든페스타",
+      "emoji": "🌸",
+      "region": "경기",
+      "area": "포천",
+      "desc": "한탄강 절경과 대규모 계절꽃 정원을 함께 보고 Y형 출렁다리까지 즐기는 가을 나들이예요.",
+      "address": "경기 포천시 관인면 창동로 832",
+      "searchQuery": "포천 한탄강 가든페스타",
+      "company": "both",
+      "moods": [
+        "chill",
+        "active"
+      ],
+      "time": "day",
+      "seasonLabel": "2026 가을 · 11월 1일까지",
+      "availableFrom": "2026-09-12",
+      "availableUntil": "2026-11-01",
+      "sourceUrl": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=5aa748cc-5523-4fca-bf80-3b331ba22212",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "gyeonggi-gangcheon-island-autumn",
+      "title": "강천섬 은행나무길",
+      "emoji": "💛",
+      "region": "경기",
+      "area": "여주",
+      "desc": "남한강 섬을 노랗게 채우는 은행나무길과 넓은 잔디밭에서 피크닉하기 좋아요.",
+      "address": "경기 여주시 강천면 강천리길 88-60",
+      "searchQuery": "여주 강천섬 유원지",
+      "company": "both",
+      "moods": [
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 은행나무 추천",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=c62f1320-fb43-45b6-b6bf-b50a1db4714f",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "gangwon-inje-autumn-flower-2026",
+      "title": "인제가을꽃축제",
+      "emoji": "🌼",
+      "region": "강원",
+      "area": "인제",
+      "desc": "국화·야생화 정원과 수변 산책로, 숲 체험을 함께 즐기는 무료 가을꽃 축제예요.",
+      "address": "강원 인제군 북면 용대리 1821-2",
+      "searchQuery": "인제가을꽃축제",
+      "company": "both",
+      "moods": [
+        "chill",
+        "active"
+      ],
+      "time": "day",
+      "seasonLabel": "2026 가을 · 10월 11일까지",
+      "availableFrom": "2026-09-24",
+      "availableUntil": "2026-10-11",
+      "sourceUrl": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=813eddb1-c961-4572-95b5-490dd8f54804",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "gangwon-mindungsan-silver-grass",
+      "title": "민둥산 은빛 억새",
+      "emoji": "🌾",
+      "region": "강원",
+      "area": "정선",
+      "desc": "산등성이 전체가 은빛 억새로 출렁이는 트레킹 명소. 경사가 있어 편한 등산화를 준비해요.",
+      "address": "강원 정선군 남면 무릉리",
+      "searchQuery": "정선 민둥산 억새",
+      "company": "both",
+      "moods": [
+        "active",
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 억새 트레킹",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://www.yna.co.kr/view/AKR20260618058700062",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "chungnam-gokgyocheon-ginkgo",
+      "title": "곡교천 은행나무길",
+      "emoji": "💛",
+      "region": "충남",
+      "area": "아산",
+      "desc": "곡교천을 따라 은행나무 수백 그루가 노랗게 이어지는 평탄한 산책·자전거 코스예요.",
+      "address": "충남 아산시 염치읍 송곡리",
+      "searchQuery": "아산 곡교천 은행나무길",
+      "company": "both",
+      "moods": [
+        "chill",
+        "active"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 은행나무 추천",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=fae63e1d-5b79-4bd6-b82c-2e35903f4192",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "jeju-saebyeol-oreum-autumn",
+      "title": "새별오름 억새 능선",
+      "emoji": "🌾",
+      "region": "제주",
+      "area": "애월",
+      "desc": "완만한 오름 능선과 억새가 함께 빛나는 가을 제주 명소. 바람이 강해 겉옷을 챙겨요.",
+      "address": "제주 제주시 애월읍 봉성리 산 59-8",
+      "searchQuery": "제주 새별오름",
+      "company": "both",
+      "moods": [
+        "active",
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 억새 추천",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500309&menuId=DOM_000001718000000000",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "jeonnam-piagol-autumn",
+      "title": "지리산 피아골 단풍",
+      "emoji": "🏞️",
+      "region": "전남",
+      "area": "구례",
+      "desc": "연곡사에서 계곡을 따라 붉은 단풍이 깊어지는 지리산 대표 가을 트레킹 코스예요.",
+      "address": "전남 구례군 토지면 내동리",
+      "searchQuery": "지리산 피아골계곡",
+      "company": "both",
+      "moods": [
+        "active",
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "가을 계곡 단풍",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=44bfd797-1e6a-4b75-99e0-b06e47441e68",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "gyeongnam-jinju-lantern-2026",
+      "title": "진주남강유등축제",
+      "emoji": "🏮",
+      "region": "경남",
+      "area": "진주",
+      "desc": "남강과 진주성을 수상등·육상등·드론 쇼가 밝히는 대표 가을 야간 축제예요.",
+      "address": "경남 진주시 남강로 626",
+      "searchQuery": "진주남강유등축제",
+      "company": "both",
+      "moods": [
+        "chill",
+        "active"
+      ],
+      "time": "night",
+      "seasonLabel": "2026 가을 · 10월 3~18일",
+      "availableFrom": "2026-10-03",
+      "availableUntil": "2026-10-18",
+      "sourceUrl": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=aebdd924-73cd-4187-be5e-ba29ccf19c49",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "jeju-ttarabi-oreum-autumn",
+      "title": "따라비오름 억새",
+      "emoji": "🌾",
+      "region": "제주",
+      "area": "표선",
+      "desc": "부드러운 능선과 분화구를 따라 억새 물결이 이어지는 제주 동쪽의 가을 오름이에요.",
+      "address": "제주 서귀포시 표선면 가시리 산 62",
+      "searchQuery": "제주 따라비오름",
+      "company": "both",
+      "moods": [
+        "active",
+        "chill"
+      ],
+      "time": "day",
+      "seasonLabel": "제주 가을 억새",
+      "activeMonths": [
+        9,
+        10,
+        11
+      ],
+      "sourceUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CONT_000000000500270",
+      "sourceCheckedAt": "2026-09-27"
+    },
+    {
+      "id": "research-walk-seoul-trail-15",
+      "title": "서울둘레길 15코스",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "가양대교 남단~증산역",
+      "activities": [
+        "walk"
+      ],
+      "desc": "가양대교 남단부터 증산역까지 약 7.7km 걷기 코스.",
+      "sourceUrl": "https://gil.seoul.go.kr/gil/view.do?key=2407100006&sc_gilNo=15",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 서울둘레길 15코스",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-jingyeongsansuhwa",
+      "title": "진경산수화길",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "서울 테마산책길",
+      "activities": [
+        "walk"
+      ],
+      "desc": "약 3km 테마 산책길 걷기.",
+      "sourceUrl": "https://gil.seoul.go.kr/trail/view.do?key=2405200008&sc_trailSeCd=SE002&sc_trailSn=173",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 진경산수화길",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-amsa-ecology",
+      "title": "암사 생태산책길",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "한강공원 암사 일대",
+      "activities": [
+        "walk"
+      ],
+      "desc": "한강공원 생태산책길 걷기.",
+      "sourceUrl": "https://hangang.seoul.go.kr/www/bbsPost/14/list.do?mid=721",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 암사 생태산책길",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-yeongrang-lake",
+      "title": "영랑호",
+      "venueTitle": null,
+      "region": "강원",
+      "area": "속초",
+      "activities": [
+        "walk"
+      ],
+      "desc": "호수 주변 길 산책.",
+      "sourceUrl": "https://www.gangwon.to/gwtour/information/news?articleSeq=60898",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "강원 영랑호",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-jeonju-hidden",
+      "title": "한옥마을 숨길",
+      "venueTitle": null,
+      "region": "전북",
+      "area": "전주 한옥마을",
+      "activities": [
+        "walk"
+      ],
+      "desc": "한옥마을 도보 코스 약 2.2km 걷기.",
+      "sourceUrl": "https://tour.jeonju.go.kr/images/file/map/05_mapWalking.pdf",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "전북 한옥마을 숨길",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-samrak",
+      "title": "삼락생태공원",
+      "venueTitle": null,
+      "region": "부산",
+      "area": "사상구",
+      "activities": [
+        "walk"
+      ],
+      "desc": "철새먹이터 순환 산책로 약 1.5km 걷기.",
+      "sourceUrl": "https://www.busan.go.kr/nakdong/samrakpark03",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "부산 삼락생태공원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-jeoryeong",
+      "title": "절영해안산책로",
+      "venueTitle": null,
+      "region": "부산",
+      "area": "영도구",
+      "activities": [
+        "walk"
+      ],
+      "desc": "해안 산책로 약 3km 걷기.",
+      "sourceUrl": "https://www.busan.go.kr/geopark/taejongdae",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "부산 절영해안산책로",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-green-railway",
+      "title": "그린레일웨이",
+      "venueTitle": null,
+      "region": "부산",
+      "area": "해운대구",
+      "activities": [
+        "walk"
+      ],
+      "desc": "옛 해안 철길을 따라 약 4.8km 걷기.",
+      "sourceUrl": "https://www.visitbusan.net/kr/index.do?lang_cd=ko&menuCd=DOM_000000202002001000&uc_seq=1326",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "부산 그린레일웨이",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-dongchuksan",
+      "title": "동축산",
+      "venueTitle": null,
+      "region": "울산",
+      "area": "동구",
+      "activities": [
+        "walk"
+      ],
+      "desc": "신전체육공원과 동축산 사이 산길 왕복 약 3.6km 걷기.",
+      "sourceUrl": "https://www.ulsan.go.kr/tour/kor/unit/attrctn/view.do?mId=001002001000000000&unqId=157",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "울산 동축산",
+      "activityResearch": true
+    },
+    {
+      "id": "research-walk-seongan-olle",
+      "title": "제주 성안올레 1코스",
+      "venueTitle": null,
+      "region": "제주",
+      "area": "제주시 원도심",
+      "activities": [
+        "walk"
+      ],
+      "desc": "산지천·탑동광장·용연구름다리 등을 지나는 약 6km 걷기.",
+      "sourceUrl": "https://www.visitjeju.net/kr/detail/view?contentsid=CNTS_300000000012898&menuId=DOM_000001718008000000",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "제주 제주 성안올레 1코스",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-jamwon-riverside",
+      "title": "잠원한강공원",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "서초구 강변길",
+      "activities": [
+        "run"
+      ],
+      "desc": "반포대교부터 한남대교 방향으로 약 5km 달리기.",
+      "sourceUrl": "https://sports.seoul.go.kr/main/board/10/6917/board_view.do",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 잠원한강공원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-expo-square",
+      "title": "엑스포시민광장",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "유성구",
+      "activities": [
+        "run"
+      ],
+      "desc": "광장 순환 약 1km 또는 엑스포다리 연계 약 2km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 엑스포시민광장",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-gapcheon",
+      "title": "갑천",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "엑스포다리~KAIST",
+      "activities": [
+        "run"
+      ],
+      "desc": "엑스포다리부터 KAIST 방향 약 5km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 갑천",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-yudeungcheon",
+      "title": "유등천",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "파라곤아파트~용문교",
+      "activities": [
+        "run"
+      ],
+      "desc": "하천변 약 5km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 유등천",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-daejeoncheon",
+      "title": "대전천",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "목척교~현암교",
+      "activities": [
+        "run"
+      ],
+      "desc": "하천변 약 3km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 대전천",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-lohas-happyroad",
+      "title": "금강 로하스 해피로드",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "대덕구",
+      "activities": [
+        "run"
+      ],
+      "desc": "대청공원에서 미호교 방향 약 5km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 금강 로하스 해피로드",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-gapcheon-lake",
+      "title": "갑천생태호수공원",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "유성구",
+      "activities": [
+        "run"
+      ],
+      "desc": "호수 둘레 약 3.5~4km 달리기.",
+      "sourceUrl": "https://daejeon.go.kr/its/ItsdjNormalboardView.do?boardGubun=itsdj01&boardSeq=3721&menuSeq=5931&pageIndex=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 갑천생태호수공원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-jeonjucheon",
+      "title": "전주천",
+      "venueTitle": null,
+      "region": "전북",
+      "area": "전주",
+      "activities": [
+        "run"
+      ],
+      "desc": "하천변에서 달리기.",
+      "sourceUrl": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&contentsSid=1&dataSid=9774&paging=ok&startPage=1",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "전북 전주천",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-daewangam",
+      "title": "대왕암공원 둘레길",
+      "venueTitle": null,
+      "region": "울산",
+      "area": "동구",
+      "activities": [
+        "run"
+      ],
+      "desc": "바닷가길 약 2.3km 슬로 러닝.",
+      "sourceUrl": "https://webzine.ulsan.go.kr/contents/view.do?bbsId=BBSMSTR_000000000180&nttId=15452",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "울산 대왕암공원 둘레길",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-ulsan-forest",
+      "title": "울산숲",
+      "venueTitle": null,
+      "region": "울산",
+      "area": "북구",
+      "activities": [
+        "run"
+      ],
+      "desc": "이화정 또는 송정 구간 숲길 슬로 러닝.",
+      "sourceUrl": "https://webzine.ulsan.go.kr/contents/view.do?bbsId=BBSMSTR_000000000180&nttId=15452",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "울산 울산숲",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-gongjicheon",
+      "title": "공지천 호수공원",
+      "venueTitle": null,
+      "region": "강원",
+      "area": "춘천",
+      "activities": [
+        "run"
+      ],
+      "desc": "의암호변 수변 산책로에서 슬로 러닝.",
+      "sourceUrl": "https://www.chuncheon.go.kr/tour/destination/ai-tour/tour-news/?bbsId=BBSMSTR_000000000742&flag=view&nttId=1028",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "강원 공지천 호수공원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-jamwon-track",
+      "title": "잠원한강공원 육상연습장",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "서초구",
+      "activities": [
+        "run"
+      ],
+      "desc": "환형 마사토 트랙에서 달리기.",
+      "sourceUrl": "https://hangang.seoul.go.kr/www/contents/777.do?mid=516",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "공식 안내상 무료·항시개방. 현장 정비와 행사 여부는 확인해 주세요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 잠원한강공원 육상연습장",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-yeouido-track",
+      "title": "여의롤장 러닝트랙",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "영등포구 여의도한강공원",
+      "activities": [
+        "run"
+      ],
+      "desc": "러닝트랙에서 달리기.",
+      "sourceUrl": "https://hangang.seoul.go.kr/www/contents/777.do?mid=516",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "공식 안내상 무료·항시개방. 현장 통제 여부는 확인해 주세요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 여의롤장 러닝트랙",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-banpo",
+      "title": "반포한강공원",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "서초구",
+      "activities": [
+        "run"
+      ],
+      "desc": "공식 안내에서 조깅을 소개한 한강공원 산책로 달리기.",
+      "sourceUrl": "https://hangang.seoul.go.kr/www/contents/663.do?mid=463",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 반포한강공원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-bucheon-upper",
+      "title": "부천종합운동장 2층 외부 트랙",
+      "venueTitle": null,
+      "region": "경기",
+      "area": "부천",
+      "activities": [
+        "run"
+      ],
+      "desc": "시민 상시 개방 트랙에서 달리기.",
+      "sourceUrl": "https://news.bucheon.go.kr/home/kor/M814028754/reporter/citizen/edit.do?idx=cb00d1a0008a85e71a41b8741facbffed13312853f4887994e2e471814066aff",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "공식 안내상 시민 상시 개방. 행사·정비 여부는 확인해 주세요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "경기 부천종합운동장 2층 외부 트랙",
+      "activityResearch": true
+    },
+    {
+      "id": "research-run-bucheon-stadium",
+      "title": "부천종합운동장 1층 주경기장 육상트랙",
+      "venueTitle": null,
+      "region": "경기",
+      "area": "부천",
+      "activities": [
+        "run"
+      ],
+      "desc": "시민 개방 시간에 육상트랙 달리기.",
+      "sourceUrl": "https://news.bucheon.go.kr/home/kor/M814028754/reporter/citizen/edit.do?idx=cb00d1a0008a85e71a41b8741facbffed13312853f4887994e2e471814066aff",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "공식 안내상 무료, 06:00–08:00·18:00–20:00. 경기·점검 통제 확인 필요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "경기 부천종합운동장 1층 주경기장 육상트랙",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-cheonggye",
+      "title": "테라로사 청계광장점",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "중구 청계광장",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "청계천 근처 카페에서 커피 마시며 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "공식 매장 시간 확인. 당일 영업·좌석·대기 미확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 테라로사 청계광장점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-bluebottle-yeonnam",
+      "title": "블루보틀 연남 카페",
+      "venueTitle": null,
+      "region": "서울",
+      "area": "마포구 연남동",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "연남동 카페에서 쉬기.",
+      "sourceUrl": "https://kr.bluebottlecoffee.com/blogs/locator/bluebottle-yeonnam-cafe",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "서울 블루보틀 연남 카페",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-seojong",
+      "title": "테라로사 서종점",
+      "venueTitle": null,
+      "region": "경기",
+      "area": "양평 서종면",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "북한강 인근 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "경기 테라로사 서종점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-dongtan",
+      "title": "테라로사 동탄호수점",
+      "venueTitle": null,
+      "region": "경기",
+      "area": "화성 동탄",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "동탄호수 주변 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "경기 테라로사 동탄호수점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-gyeongpo",
+      "title": "테라로사 경포호수점",
+      "venueTitle": null,
+      "region": "강원",
+      "area": "강릉 경포호",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "호수 산책 후 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "강원 테라로사 경포호수점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-sacheon",
+      "title": "테라로사 사천해변점",
+      "venueTitle": null,
+      "region": "강원",
+      "area": "강릉 사천해변",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "바다를 본 뒤 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "강원 테라로사 사천해변점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-paulbassett-bangseo",
+      "title": "폴 바셋 청주 방서 DT점",
+      "venueTitle": null,
+      "region": "충북",
+      "area": "청주 방서동",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "시내 카페에서 잠시 쉬기. 실내 좌석은 미확인.",
+      "sourceUrl": "https://www.baristapaulbassett.co.kr/store/StoreView.pb?shopSeq=2000182001",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "충북 폴 바셋 청주 방서 DT점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-sejong",
+      "title": "테라로사 세종점",
+      "venueTitle": null,
+      "region": "세종",
+      "area": "세종시",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "도심 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "세종 테라로사 세종점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-paulbassett-daejeon-outlet",
+      "title": "폴 바셋 현대아울렛 대전점",
+      "venueTitle": null,
+      "region": "대전",
+      "area": "유성구 현대아울렛",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "아울렛 내 카페에서 쉬기.",
+      "sourceUrl": "https://www.baristapaulbassett.co.kr/store/StoreView.pb?shopSeq=2000148001",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "아울렛 정기휴무에 매장도 영향을 받을 수 있어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "대전 폴 바셋 현대아울렛 대전점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-paulbassett-jeonju-geumam",
+      "title": "폴 바셋 전주 금암 DT점",
+      "venueTitle": null,
+      "region": "전북",
+      "area": "전주 금암동",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "카페에서 커피를 마시며 쉬기.",
+      "sourceUrl": "https://www.baristapaulbassett.co.kr/store/StoreView.pb?shopSeq=2000156001",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "전북 폴 바셋 전주 금암 DT점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-gyeongju",
+      "title": "테라로사 경주점",
+      "venueTitle": null,
+      "region": "경북",
+      "area": "경주",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "경주 관광 뒤 카페에서 쉬기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "경북 테라로사 경주점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-suyeong",
+      "title": "테라로사 수영점",
+      "venueTitle": null,
+      "region": "부산",
+      "area": "수영구",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "복합문화공간 근처 카페에서 커피 마시기.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "부산 테라로사 수영점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-bluebottle-minrak",
+      "title": "블루보틀 부산 민락 카페",
+      "venueTitle": null,
+      "region": "부산",
+      "area": "수영구 민락동",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "바다 근처 카페에서 쉬기. 공식 안내상 3·4층 운영.",
+      "sourceUrl": "https://kr.bluebottlecoffee.com/pages/cafe-list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "부산 블루보틀 부산 민락 카페",
+      "activityResearch": true
+    },
+    {
+      "id": "research-cafe-terarosa-seogwipo",
+      "title": "테라로사 서귀포점",
+      "venueTitle": null,
+      "region": "제주",
+      "area": "서귀포",
+      "activities": [
+        "cafe"
+      ],
+      "desc": "제주 남부 카페에서 커피와 휴식.",
+      "sourceUrl": "https://renew.terarosa.com/store/list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "당일 이용 가능 여부는 확인되지 않았어요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "제주 테라로사 서귀포점",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-folk-permanent",
+      "title": "국립민속박물관 본관",
+      "venueTitle": "국립민속박물관 본관",
+      "region": "서울",
+      "area": "종로구",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "현재 개방된 민속 상설전시관 관람.",
+      "sourceUrl": "https://www.nfm.go.kr/home/subIndex/1239.do",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "개인 사전예약 불필요·무료. 상설전시관1 휴관 범위와 당일 공지 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "국립민속박물관 본관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-gyeongju-permanent",
+      "title": "국립경주박물관",
+      "venueTitle": "국립경주박물관",
+      "region": "경북",
+      "area": "경주",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "신라 역사 상설전시 관람.",
+      "sourceUrl": "https://gyeongju.museum.go.kr/kor/html/sub01/0101.html",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": null,
+      "availableUntil": null,
+      "admissionNote": "일반전시 무료. 일부 상설관 분기 휴관·개인 예약 여부 확인 필요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "국립경주박물관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-nmk-table",
+      "title": "우리들의 밥상",
+      "venueTitle": "국립중앙박물관",
+      "region": "서울",
+      "area": "용산구",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "우리의 삶과 자연이 담긴 밥상의 의미를 다루는 특별전 관람.",
+      "sourceUrl": "https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?exhiSpThemId=3529713&listType=list&menuId=specialGallery&schM=view",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": "2026-07-01",
+      "availableUntil": "2026-10-25",
+      "admissionNote": "25~64세 5,000원, 7~24세 3,000원. 당일 현장 입장권 구매 가능 명시; 재고·매진 미확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "국립중앙박물관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-jeonju-arhats",
+      "title": "도량으로의 귀환, 전주 서고사 나한",
+      "venueTitle": "국립전주박물관",
+      "region": "전북",
+      "area": "전주",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "전주 서고사 나한 특별전 관람.",
+      "sourceUrl": "https://jeonju.museum.go.kr/special.es?act=view&mid=a10201010000&seq=1711",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": "2026-09-16",
+      "availableUntil": "2026-11-29",
+      "admissionNote": "무료. 개인 현장 입장·예약 여부 미확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "searchQuery": "국립전주박물관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-busan-port",
+      "title": "개항, 부산항 150년",
+      "venueTitle": "국립해양박물관",
+      "region": "부산",
+      "area": "영도구",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "부산항 개항 150년의 변화와 기록을 다룬 기획전 관람.",
+      "sourceUrl": "https://www.mmk.or.kr/?cate=now&folder=exhibition&idx=89&page=view",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": "2026-06-30",
+      "availableUntil": "2026-10-11",
+      "admissionNote": "무료, 일반 개인 사전예약 없이 관람. 공휴일 월요일에는 개관하고 다음 첫 평일 휴관: 10/5 개관 규칙, 10/6 휴관. 전시실 제한·당일 공지는 공식 홈페이지 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "closedWeekdays": [
+        1
+      ],
+      "openDates": [
+        "2026-10-05"
+      ],
+      "closedDates": [
+        "2026-10-06"
+      ],
+      "address": "",
+      "searchQuery": "국립해양박물관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-exhibit-busan-objects",
+      "title": "사물의 이동",
+      "venueTitle": "국립해양박물관",
+      "region": "부산",
+      "area": "영도구",
+      "activities": [
+        "exhibit"
+      ],
+      "desc": "국립해양박물관 기획전시실 2의 협력 전시 관람.",
+      "sourceUrl": "https://www.mmk.or.kr/?cate=now&folder=exhibition&page=list",
+      "sourceCheckedAt": "2026-10-05",
+      "availableFrom": "2026-10-01",
+      "availableUntil": "2026-11-07",
+      "admissionNote": "무료, 일반 개인 사전예약 없이 관람. 공휴일 월요일에는 개관하고 다음 첫 평일 휴관: 10/5 개관 규칙, 10/6 휴관. 전시실 제한·당일 공지는 공식 홈페이지 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "closedWeekdays": [
+        1
+      ],
+      "openDates": [
+        "2026-10-05"
+      ],
+      "closedDates": [
+        "2026-10-06"
+      ],
+      "address": "",
+      "searchQuery": "국립해양박물관",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-gyeonggi-seoul-zoo",
+      "title": "서울대공원 동물원",
+      "region": "경기",
+      "area": "과천",
+      "activities": [
+        "play"
+      ],
+      "desc": "동물원을 걸으며 동물 관찰하기",
+      "sourceUrl": "https://grandpark.seoul.go.kr/conts/contsView/ko/S001001001001.do",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "연중무휴, 10월 09:00~18:00, 종료 1시간 전 입장 마감. 현장 결제 가능.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "경기 서울대공원 동물원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-incheon-wonderbox",
+      "title": "파라다이스시티 원더박스",
+      "region": "인천",
+      "area": "중구",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내 테마파크에서 놀이기구 타기",
+      "sourceUrl": "https://www.p-city.com/front/wonderbox/operation?language=KO",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "상시 11:00~19:00 안내, 종료 1시간 전 현장 매표 마감. 단체만 사전예약제.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "인천 파라다이스시티 원더박스",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-busan-sealife",
+      "title": "씨라이프 부산 아쿠아리움",
+      "region": "부산",
+      "area": "해운대",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내 아쿠아리움 관람하기",
+      "sourceUrl": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "평일 10:00~19:00, 주말 20:00까지 안내. 종료 1시간 전 입장 마감; 티켓 조건 재확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "부산 씨라이프 부산 아쿠아리움",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-daegu-aquarium",
+      "title": "대구아쿠아리움",
+      "region": "대구",
+      "area": "동구",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내 아쿠아리움에서 수중 생물 관찰하기",
+      "sourceUrl": "https://daeguaqua.com/aliveaqua/price",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "월~목 10:30~20:00, 금~일·공휴일 20:30까지, 입장 19:00 마감. 현장 결제 안내 있음.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "대구 대구아쿠아리움",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-gwangju-uchi-zoo",
+      "title": "우치동물원",
+      "region": "광주",
+      "area": "북구",
+      "activities": [
+        "play"
+      ],
+      "desc": "동물원에서 다양한 동물 관찰하기",
+      "sourceUrl": "https://www.gwangju.go.kr/uchipark/",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "연중무휴 09:00~18:00, 17:00 입장 마감. 일반 자유관람; 특별 프로그램은 별도.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "광주 우치동물원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-daejeon-oworld",
+      "title": "대전 오월드",
+      "region": "대전",
+      "area": "중구",
+      "activities": [
+        "play"
+      ],
+      "desc": "동물 관람과 놀이기구를 함께 즐기기",
+      "sourceUrl": "https://oworld.kr/newkfsweb/kfs/dcco/dccoMainindex.do",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "일반 운영 09:30~18:00. 정문 현장 매표 가능, 사파리·버드랜드 등 세부 운영은 별도 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "대전 대전 오월드",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-sejong-beartree",
+      "title": "베어트리파크",
+      "region": "세종",
+      "area": "전의",
+      "activities": [
+        "play"
+      ],
+      "desc": "동물과 수목을 함께 관찰하기",
+      "sourceUrl": "https://beartreepark.com/information",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "3~11월 월~목 09:00~19:00, 금~일 20:00까지. 종료 1시간 전 입장 마감; 악천후 조기 폐장 가능.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "세종 베어트리파크",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-chungnam-splash-resom",
+      "title": "스플라스 리솜 워터파크",
+      "region": "충남",
+      "area": "예산",
+      "activities": [
+        "play"
+      ],
+      "desc": "온천 워터파크와 스파 즐기기",
+      "sourceUrl": "https://www.resom.co.kr/spa/water/usage_fee.asp",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "공식 안내는 워터파크 전 시설 연중 운영. 날짜별 운영시간과 현장권 잔여 여부 재확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "충남 스플라스 리솜 워터파크",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-jeonbuk-jeonju-zoo",
+      "title": "전주동물원",
+      "region": "전북",
+      "area": "전주",
+      "activities": [
+        "play"
+      ],
+      "desc": "도심 동물원 둘러보기",
+      "sourceUrl": "https://tour.jeonju.go.kr/board/view.jeonju?boardId=BBS_0000003&contentsSid=1&dataSid=9784&paging=ok&startPage=1",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "연중무휴, 3~10월 09:00~19:00, 종료 1시간 전 현장 매표 마감. 놀이시설 드림랜드는 별도 요금.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "전북 전주동물원",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-jeju-aqua",
+      "title": "아쿠아플라넷 제주",
+      "region": "제주",
+      "area": "서귀포",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내 아쿠아리움과 오션아레나 관람하기",
+      "sourceUrl": "https://www.aquaplanet.co.kr/jeju/information/use_price.do",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "연중무휴 09:30~18:00, 매표 17:00·입장 17:30 마감. 일반 현장 매표소 운영.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "제주 아쿠아플라넷 제주",
+      "activityResearch": true
+    },
+    {
+      "id": "research-activity-jeju-shinhwa",
+      "title": "신화테마파크",
+      "region": "제주",
+      "area": "서귀포",
+      "activities": [
+        "play"
+      ],
+      "desc": "야외 놀이기구와 테마파크 즐기기",
+      "sourceUrl": "https://www.shinhwaworld.com/themepark.jhtml?lang=kr",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "일반 파크 10:00~19:00. 별도 유료 야간 행사와 혼동하지 말 것; 우천 시 놀이기구 운휴 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "제주 신화테마파크",
+      "activityResearch": true
+    },
+    {
+      "id": "research-spa-incheon-cimer",
+      "title": "씨메르",
+      "region": "인천",
+      "area": "중구",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내외 아쿠아스파와 찜질스파 즐기기",
+      "sourceUrl": "https://www.p-city.com/front/cimer/operation?seqParm=2",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "아쿠아스파권은 아쿠아스파+찜질스파 통합권(정상 대인 60,000원); 찜질스파권만으로 풀 이용 불가. 2026년 9~11월 아쿠아스파권 판매 확인, 1층 매표소·키오스크 현장 구매 안내. 기상·대관·혼잡 시 실외풀/입장 제한 가능.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "인천 씨메르",
+      "activityResearch": true
+    },
+    {
+      "id": "research-spa-seoul-sealala",
+      "title": "씨랄라워터파크",
+      "region": "서울",
+      "area": "영등포",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내 워터파크와 찜질방 이용하기",
+      "sourceUrl": "https://www.sealala.com/guide/",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "워터파크는 토·일·공휴일만 10:00~19:00(대인 종일 60,000원); 찜질방도 토·일·공휴일만. 워터파크 고객은 찜질방 입장료 무료지만 찜질복 5,000원 별도. 현장 매표 안내 있음. 평일 일반일은 동시 이용 불가.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "openWeekdays": [
+        0,
+        6
+      ],
+      "openDates": [
+        "2026-10-05",
+        "2026-10-09"
+      ],
+      "address": "",
+      "searchQuery": "서울 씨랄라워터파크",
+      "activityResearch": true
+    },
+    {
+      "id": "research-spa-gyeonggi-termeden",
+      "title": "테르메덴",
+      "region": "경기",
+      "area": "이천",
+      "activities": [
+        "play"
+      ],
+      "desc": "실내외 풀앤스파와 사우나 이용하기",
+      "sourceUrl": "https://termeden.com/poolspa_infomation_use.html",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "2026-09-01~10-11 풀앤스파 시즌. 현장 1층 매표소 발권 안내. 찜질복은 별도 대여 5,000원. 화·수 클린데이 휴장, 10/12~22 시설 정비 휴장; 10/11 뒤 당일 후보 제외.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "closedWeekdays": [
+        2,
+        3
+      ],
+      "availableFrom": "2026-09-01",
+      "availableUntil": "2026-10-11",
+      "address": "",
+      "searchQuery": "경기 테르메덴",
+      "activityResearch": true
+    },
+    {
+      "id": "research-spa-chungnam-paradise-dogo",
+      "title": "파라다이스 스파 도고",
+      "region": "충남",
+      "area": "아산",
+      "activities": [
+        "play"
+      ],
+      "desc": "온천대욕장과 실내외 풀장에서 스파 즐기기",
+      "sourceUrl": "https://www.paradisespa.co.kr/Guidance/ServiceTime.do?MM=202",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "스파권에 온천대욕장+실내외풀장 포함(2026-09-01~12-17 주중 45,000원·주말 53,000원). 온천 단독권은 풀장 이용 불가. 현장 매표소 발권 가능. 아쿠아플레이는 10/11까지 주말 운영 후 중단되지만 실내 바데풀 등은 별도 운영표 확인.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "충남 파라다이스 스파 도고",
+      "activityResearch": true
+    },
+    {
+      "id": "research-spa-gyeonggi-seoulland",
+      "title": "서울랜드",
+      "region": "경기",
+      "area": "과천",
+      "activities": [
+        "play"
+      ],
+      "desc": "테마파크 놀이기구 타기",
+      "sourceUrl": "https://seoulland.co.kr/?p=38",
+      "sourceCheckedAt": "2026-10-05",
+      "admissionNote": "일반 파크 종일권 성인 52,000원, 현장매표소 구매 명시. 계절시설·체험은 별도 요금 또는 운휴 가능하며 날짜별 개장시간 확인 필요.",
+      "auditStatus": "candidate",
+      "lat": null,
+      "lng": null,
+      "catalogTitleAliases": [],
+      "address": "",
+      "searchQuery": "경기 서울랜드",
+      "activityResearch": true
+    }
+  ]
+}

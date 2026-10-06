@@ -1,0 +1,719 @@
+/*
+ * Moa Moment editorial screen
+ *
+ * This screen intentionally owns its complete visual layer. It uses unique
+ * class names so the legacy prototype styles cannot restyle its content.
+ * Source of truth: DESIGN-MOOD.md and design-references/moa-editorial-mood.png
+ */
+@font-face {
+  font-family: "MomentHandwriting";
+  src: url("assets/fonts/KyoboHandwriting2025lyb.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roustel";
+  src: url("assets/fonts/Roustel.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html:has(.moment-editorial-screen) {
+  overflow-y: auto;
+}
+
+.moment-editorial-screen {
+  --moment-canvas: #fffdfa;
+  --moment-ink: #202124;
+  --moment-body: #454a4d;
+  --moment-mint: #79bfae;
+  --moment-coral: #ef625f;
+  position: relative;
+  min-height: 100dvh;
+  padding: 0 20px 128px;
+  isolation: isolate;
+  color: var(--moment-ink);
+  background: var(--moment-canvas);
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+}
+
+.moment-editorial-screen *,
+.moment-editorial-screen *::before,
+.moment-editorial-screen *::after {
+  box-sizing: border-box;
+}
+
+.moment-editorial {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.moment-editorial__poster {
+  position: relative;
+}
+
+.moment-editorial__heading {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.moment-editorial__heading h1 {
+  margin: 0;
+  color: var(--moment-mint);
+  font-family: "MomentHandwriting", "KyoboHandwriting2019", cursive;
+  font-size: 66px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transform: rotate(-1deg);
+  transform-origin: center center;
+}
+
+.moment-editorial__description {
+  margin: 18px 0 0;
+  color: var(--moment-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -.02em;
+  text-align: center;
+}
+
+.moment-editorial__visual {
+  position: relative;
+  z-index: 1;
+}
+
+.moment-editorial__photo {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 18px 18px 66px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.moment-editorial__photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 48%;
+  border-radius: 4px;
+}
+
+.moment-editorial__photo-frame {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: var(--moment-mint);
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.moment-editorial__photo-frame-echo {
+  opacity: .4;
+  stroke-width: .7;
+}
+
+.moment-editorial__caption {
+  position: absolute;
+  z-index: 3;
+  right: 22px;
+  bottom: 3px;
+  left: 28px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.moment-editorial__stamp {
+  position: static;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  padding: 0;
+  color: #407d5e;
+  background: transparent;
+  font-family: "MomentHandwriting", "Apple SD Gothic Neo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+  transform: none;
+}
+
+.moment-editorial__moa {
+  position: relative;
+  width: 94px;
+  height: 60px;
+  align-self: flex-end;
+  overflow: hidden;
+}
+
+.moment-editorial__moa img {
+  position: absolute;
+  top: -16px;
+  right: 2px;
+  display: block;
+  width: 82px;
+  height: 82px;
+  max-width: none;
+  object-fit: contain;
+}
+
+.moment-editorial__place {
+  margin-top: 28px;
+  padding: 0 2px;
+  text-align: left;
+}
+
+.moment-editorial__section-title {
+  margin: 0 0 7px;
+  color: var(--moment-coral);
+  font-family: "MomentHandwriting", "Apple SD Gothic Neo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -.02em;
+}
+
+.moment-editorial__place h2 {
+  margin: 0;
+  color: var(--moment-ink);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.05em;
+}
+
+.moment-editorial__place-description {
+  margin: 8px 0 0;
+  color: var(--moment-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -.035em;
+  word-break: keep-all;
+}
+
+.moment-editorial__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 0 2px;
+}
+
+.moment-engagement-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.moment-like-button,
+.moment-save-button {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+  border: 0;
+  color: var(--moment-body);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.moment-like-button {
+  gap: 9px;
+  color: var(--moment-ink);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.moment-like-button svg,
+.moment-save-button svg {
+  width: 23px;
+  height: 22px;
+  flex: none;
+}
+
+.moment-like-button svg {
+  fill: none;
+  stroke: var(--moment-coral);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.moment-like-button.is-liked svg {
+  fill: var(--moment-coral);
+}
+
+.moment-save-button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.moment-save-button.is-saved {
+  color: #407d5e;
+}
+
+.moment-save-button.is-saved svg {
+  fill: currentColor;
+}
+
+.moment-like-button:focus-visible,
+.moment-save-button:focus-visible {
+  outline: 2px solid #407d5e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.moment-editorial__footer > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  padding: 4px 0;
+  color: var(--moment-ink);
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 24px;
+  letter-spacing: -.035em;
+  text-decoration: none;
+}
+
+.moment-editorial__footer > button svg {
+  width: 22px;
+  height: 18px;
+  flex: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.moment-editorial__footer > button:focus-visible {
+  outline: 2px solid #407d5e;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.moment-community {
+  width: calc(100% + 40px);
+  max-width: none;
+  margin: 28px -20px 0;
+}
+
+.moment-community__divider {
+  display: block;
+  width: calc(100% - 40px);
+  height: 18px;
+  margin: 0 20px 28px;
+  fill: none;
+  stroke: var(--moment-mint);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  opacity: .72;
+}
+
+.moment-community__divider-echo {
+  stroke-width: .8;
+  opacity: .42;
+}
+
+.moment-community__heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.moment-community__title-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.moment-community__kicker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 7px;
+}
+
+.moment-community__heading small {
+  display: block;
+  margin: 0;
+  color: var(--moment-mint);
+  font-family: "KyoboHandwriting2019", "Apple SD Gothic Neo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.moment-community__heading h2 {
+  margin: 0;
+  color: var(--moment-ink);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -.045em;
+  white-space: nowrap;
+}
+
+.moment-community__intro {
+  margin: 8px 0 24px;
+  padding: 0 20px;
+  color: var(--moment-body);
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -.02em;
+  text-align: left;
+}
+
+.moment-community__sort {
+  display: flex;
+  flex: none;
+  justify-content: flex-end;
+  gap: 14px;
+  margin: 0;
+}
+
+.moment-community__sort button {
+  position: relative;
+  min-width: 44px;
+  min-height: 34px;
+  padding: 3px 0 9px;
+  border: 0;
+  color: #8a8f8d;
+  background: transparent;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.moment-community__sort button svg {
+  position: absolute;
+  right: -3px;
+  bottom: 2px;
+  left: -3px;
+  width: calc(100% + 6px);
+  height: 8px;
+  fill: none;
+  stroke: var(--moment-coral);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  opacity: 0;
+}
+
+.moment-community__sort button.is-active {
+  color: var(--moment-ink);
+  font-weight: 650;
+}
+
+.moment-community__sort button.is-active svg {
+  opacity: .9;
+}
+
+.moment-community__sort button:focus-visible {
+  outline: 2px solid #407d5e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.moment-community__feed {
+  display: grid;
+  gap: 0;
+}
+
+.moment-feed-item {
+  margin: 0;
+  padding: 0 0 34px;
+  border-bottom: 1px solid #e8e6df;
+}
+
+.moment-feed-item + .moment-feed-item {
+  padding-top: 34px;
+}
+
+.moment-feed-item:last-child {
+  padding-bottom: 34px;
+  border-bottom: 0;
+}
+
+.moment-feed-item__photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+  background: #f2f0e9;
+}
+
+.moment-feed-item__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.moment-feed-item__content {
+  padding: 18px 20px 0;
+}
+
+.moment-feed-item__content h3 {
+  margin: 0;
+  color: var(--moment-ink);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.04em;
+}
+
+.moment-feed-item__content > p {
+  margin: 5px 0 0;
+  color: var(--moment-body);
+  font-family: "KyoboHandwriting2019", "Apple SD Gothic Neo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+.moment-feed-item__content footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 13px;
+}
+
+.moment-feed-item__content footer > button {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--moment-ink);
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.moment-feed-item__content footer > button:focus-visible {
+  outline: 2px solid #407d5e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.moment-place-screen {
+  --moment-canvas: #fffdfa;
+  --moment-ink: #202124;
+  --moment-body: #454a4d;
+  --moment-mint: #79bfae;
+  --moment-coral: #ef625f;
+  padding-bottom: 112px;
+  color: var(--moment-ink);
+  background: var(--moment-canvas);
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+}
+
+.moment-place-detail {
+  padding: 6px 20px 32px;
+}
+
+.moment-place-detail > figure {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #f2f0e9;
+}
+
+.moment-place-detail > figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.moment-place-detail > section {
+  padding: 23px 2px 0;
+}
+
+.moment-place-detail__region {
+  margin: 0 0 7px;
+  color: #407d5e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.moment-place-detail__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.moment-place-detail__title h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: -.05em;
+}
+
+.moment-place-detail__description {
+  margin: 10px 0 0;
+  color: var(--moment-body);
+  font-family: "MomentHandwriting", "Apple SD Gothic Neo", sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.moment-place-detail__note {
+  margin: 27px 0 12px;
+  color: #757b7d;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.moment-place-detail__map-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.moment-place-detail__map-actions button {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #deddd7;
+  border-radius: 12px;
+  color: var(--moment-ink);
+  background: #fff;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.moment-place-detail__map-actions button span {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  color: #202124;
+  background: #fee500;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.moment-place-detail__map-actions button[data-map-provider="naver"] span {
+  color: #fff;
+  background: #03c75a;
+}
+
+.moment-place-empty {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+@media (max-width: 370px) {
+  .moment-editorial-screen {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .moment-editorial {
+    padding-top: 22px;
+  }
+
+  .moment-editorial__heading h1 {
+    font-size: 60px;
+    transform: rotate(-1deg);
+  }
+
+  .moment-editorial__description {
+    font-size: 14px;
+  }
+
+  .moment-editorial__place-description {
+    font-size: 14px;
+  }
+
+  .moment-editorial__place h2 {
+    font-size: 30px;
+  }
+
+  .moment-community {
+    width: calc(100% + 36px);
+    margin: 28px -18px 0;
+  }
+
+  .moment-community__divider {
+    width: calc(100% - 36px);
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+
+  .moment-community__heading,
+  .moment-community__intro {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .moment-feed-item__content {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .moment-community__heading h2 {
+    font-size: 23px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moment-editorial-screen * {
+    scroll-behavior: auto;
+  }
+}

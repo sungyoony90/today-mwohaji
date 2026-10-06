@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+*.local
+*.pem
+*.p12
+*.key
+.npmrc
+
+# Generated dependencies and build outputs
+node_modules/
+dist/
+dist-web/
+coverage/
+.vite/
+*.log
+*.ait
+*.zip
+*.pfx
+*.crt
+*.cer
+*.keystore
+supabase/.temp/
+supabase/.branches/
+
+# User-provided photo used only for the local design preview
+assets/C51B36AF-673F-4DD0-8D6F-F7A11906351B_1_105_c.jpeg
+
+# Licensed font files used only for the local design preview
+assets/fonts/
+
+# Temporary editor files
+*.swp
+*.swo
+*~

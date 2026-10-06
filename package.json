@@ -1,0 +1,20 @@
+{
+  "name": "today-mwohaji",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build:web": "vite build",
+    "build": "npm run build:web && ait build",
+    "bundle": "ait build"
+  },
+  "dependencies": {
+    "@apps-in-toss/web-framework": "3.7.0",
+    "@supabase/supabase-js": "2.110.7"
+  },
+  "devDependencies": {
+    "vite": "6.4.3"
+  }
+}

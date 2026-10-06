@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf6ed" />
+    <title>오늘 뭐하지 · 홈 와이어프레임</title>
+    <link rel="stylesheet" href="home-wireframe.css" />
+  </head>
+  <body>
+    <main class="preview">
+      <div class="preview-heading">
+        <div><span>HOME UX · WIREFRAME 01</span><h1>오늘 갈 곳을 고르는 첫 화면</h1></div>
+        <p>모바일 화면 안에서 스크롤해 순서와 밀도를 확인할 수 있어요. 하단의 ‘모아진 순간’ 탭도 눌러보세요.</p>
+      </div>
+      <div class="preview-layout">
+        <div class="phone" aria-label="오늘 뭐하지 홈 모바일 와이어프레임">
+          <div class="phone-scroll" id="phone-scroll">
+            <section class="wire-screen" id="screen-home" aria-label="홈 화면">
+              <header class="app-top">
+                <strong class="brand">오늘 뭐하지<span>?</span></strong>
+                <button class="region" type="button" data-note="내 위치를 누르면 위치 사용을 요청하고 주변 장소를 보여줍니다. 권한이 없으면 지역을 직접 선택할 수 있어요." aria-label="내 위치로 주변 장소 보기"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.2v2.1M8 11.7v2.1M2.2 8h2.1M11.7 8h2.1"/><circle cx="8" cy="8" r="3.6"/></svg>내 위치</button>
+              </header>
+              <section class="greeting" aria-label="모아의 오늘 안내">
+                <div class="greeting-copy"><span>모아의 제안</span><h2>오늘은 어디를<br />가볼까요?</h2><p>걷기 좋은 날이에요.<br />가까운 곳부터 찾아볼까요?</p></div>
+                <img src="assets/moa-greeting-v1.png" alt="안내하는 모아" />
+              </section>
+              <div class="decision-actions" aria-label="장소 찾기 방법">
+                <button type="button" class="search-action" data-note="찾는 장소가 있을 때 지역이나 이름으로 검색하는 진입점입니다."><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span>지역이나 장소 검색</span></button>
+                <button type="button" class="recommend-action" data-note="어디 갈지 고민될 때 모아에게 추천받는 진입점입니다."><span aria-hidden="true">✦</span>모아에게 추천받기</button>
+              </div>
+              <section class="feature" aria-labelledby="feature-title">
+                <div class="section-title"><div><small>이달의 순간</small><h2 id="feature-title">모아진 순간</h2></div><button type="button" class="text-link" data-screen="moments">더 보기 <span aria-hidden="true">↗</span></button></div>
+                <button class="feature-photo" type="button" data-note="사진을 누르면 이 사진이 등록된 장소 상세로 이동합니다." aria-label="모아진 순간 사진에서 장소 상세 보기"><img src="assets/moa-moment-peek-v1.png" alt="맑은 바다와 알록달록한 방파제" /><span>실제 방문 사진 예시</span></button>
+                <div class="feature-copy"><p>“물이 맑아서 한참 구경했어요.”</p><strong>방문 장소</strong><span>사용자 제공 사진 · 장소 정보 연결 전</span></div>
+              </section>
+              <section class="nearby" aria-labelledby="nearby-title">
+                <div class="section-title"><div><small>내 위치 기준</small><h2 id="nearby-title">내 주변의 순간</h2></div><button type="button" class="text-link" data-screen="moments">더 보기 <span aria-hidden="true">↗</span></button></div>
+                <div class="nearby-grid"><div class="photo-empty"><span aria-hidden="true">✦</span><strong>첫 순간을 기다려요</strong><small>방문 사진이 아직 없어요</small></div><div class="photo-empty"><span aria-hidden="true">✦</span><strong>다음 장면을 기다려요</strong><small>방문 사진이 아직 없어요</small></div></div>
+              </section>
+              <section class="today" aria-labelledby="today-title">
+                <div class="section-title"><div><small>선택 지역에서 가볼 곳</small><h2 id="today-title">오늘의 발견</h2></div></div>
+                <button type="button" class="today-card" data-note="추천 장소를 누르면 상세로 이동합니다. 현장에서 사진과 위치로 인증할 때 카드가 쌓입니다."><span>내 주변 · 산책 예시</span><strong>오늘의 장소 한 곳</strong><small>방문 전 미리보기 · 현장 인증 후 카드 획득</small><em>장소 보기 <span aria-hidden="true">↗</span></em></button>
+              </section>
+              <button type="button" class="reward" data-note="모아 꾸미기 진행 현황은 마이에서 자세히 확인합니다."><span aria-hidden="true">✦</span><span><strong>모아 꾸미기</strong><small>발견 2/3 · 한 장 더 모으면 새 모습</small></span><span aria-hidden="true">›</span></button>
+              <p class="preview-caveat">사진과 장소 문구는 배치 확인용 예시입니다. 실제 월간 선정작이나 장소 정보가 아니에요.</p>
+            </section>
+            <section class="wire-screen" id="screen-moments" aria-label="모아진 순간 탭" hidden>
+              <header class="app-top"><strong class="brand">모아진 순간</strong><span class="tab-region">내 위치</span></header>
+              <div class="moments-intro"><small>다녀온 사람들이 남긴 진짜 장면</small><h2>사진에서 오늘 갈 곳을 찾아요.</h2></div>
+              <div class="moment-feature"><small>이달의 순간</small><img src="assets/moa-moment-peek-v1.png" alt="맑은 바다와 알록달록한 방파제" /><p>“물이 맑아서 한참 구경했어요.”</p></div>
+              <section class="moment-feed"><h3>내 주변에서 모아진 순간</h3><p>공개 동의를 받은 방문 사진이 이곳에 이어집니다.</p><div class="photo-empty"><span aria-hidden="true">✦</span><strong>첫 장면을 기다리고 있어요</strong><small>사진이 등록되면 장소별로 볼 수 있어요</small></div></section>
+            </section>
+          </div>
+          <nav class="bottom-nav" aria-label="와이어프레임 하단 메뉴">
+            <button type="button" data-screen="home" aria-current="page"><span aria-hidden="true">⌂</span><small>홈</small></button>
+            <button type="button" data-screen="moments"><span aria-hidden="true">▧</span><small>모아진 순간</small></button>
+            <button type="button" data-note="인증 탭은 방문 사진 등록으로 연결될 예정입니다."><span aria-hidden="true">⊕</span><small>인증</small></button>
+            <button type="button" data-note="저장 탭은 가고 싶은 장소 목록으로 연결될 예정입니다."><span aria-hidden="true">♡</span><small>저장</small></button>
+            <button type="button" data-note="마이 탭은 방문 기록과 모아 카드 모음으로 연결될 예정입니다."><span aria-hidden="true">○</span><small>마이</small></button>
+          </nav>
+        </div>
+        <aside class="review-notes" aria-label="와이어프레임 확인 항목"><h2>확인할 부분</h2><ol><li><strong>첫 화면</strong><span>검색·추천 다음에 실제 방문 사진이 보이는가?</span></li><li><strong>콘텐츠 순서</strong><span>모아진 순간 → 주변 사진 → 오늘의 발견 순서가 자연스러운가?</span></li><li><strong>하단 메뉴</strong><span>‘모아진 순간’이 다른 메뉴와 함께 읽히는가?</span></li></ol><p id="interaction-note" role="status" aria-live="polite">홈과 모아진 순간 탭을 전환해볼 수 있어요.</p></aside>
+      </div>
+    </main>
+    <script>
+      const scroll = document.getElementById("phone-scroll");
+      const note = document.getElementById("interaction-note");
+      document.querySelectorAll("[data-screen]").forEach(button => button.addEventListener("click", () => {
+        const target = button.dataset.screen;
+        document.getElementById("screen-home").hidden = target !== "home";
+        document.getElementById("screen-moments").hidden = target !== "moments";
+        document.querySelectorAll(".bottom-nav [data-screen]").forEach(tab => tab.setAttribute("aria-current", tab.dataset.screen === target ? "page" : "false"));
+        scroll.scrollTop = 0;
+        note.textContent = target === "moments" ? "월간 사진과 지역별 방문 사진을 함께 보는 탭입니다." : "홈과 모아진 순간 탭을 전환해볼 수 있어요.";
+      }));
+      document.querySelectorAll("[data-note]").forEach(button => button.addEventListener("click", () => { note.textContent = button.dataset.note; }));
+    </script>
+  </body>
+</html>
