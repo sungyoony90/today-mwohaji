@@ -12,13 +12,13 @@ export const bundleFiles = [
   'catalog-activity-audit-2.js', 'catalog-activity-audit-3.js', 'crowd-forecast.js',
 ];
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   envDir: false,
   publicDir: false,
   build: {
     outDir: 'dist',
     emptyOutDir: true,
-    lib: { entry: 'runtime-entry.js', name: 'MoaRuntime', formats: ['iife'], fileName: () => 'runtime.js' },
+    lib: { entry: mode === 'demo' ? 'demo-runtime.js' : 'runtime-entry.js', name: 'MoaRuntime', formats: ['iife'], fileName: () => 'runtime.js' },
   },
   plugins: [{
     name: 'preserve-approved-prototype',
@@ -31,4 +31,4 @@ export default defineConfig({
       await writeFile('dist/index.html', html);
     },
   }],
-});
+}));
